@@ -17,6 +17,9 @@ debian: validate
 lucid:
 	$(MAKE) debian DISTRO=lucid
 
+all:
+	$(MAKE) lucid
+
 validate:
 ifndef DISTRO
 	@echo "Must specify DISTRO argument, e.g. DISTRO=lucid"

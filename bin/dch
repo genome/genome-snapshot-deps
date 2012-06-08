@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -x
+set -o errexit
+set -o pipefail
+
+DISTRO=$1
+CHANGELOG="$DISTRO/changelog"
+
+VERSION=$(head -n 1 $CHANGELOG | sed -e 's/.*(\(.*\)-[0-9]\+).*/\1/')
+DATE=$(date +%Y.%m.%d)
+
+if dpkg --compare-versions "$DATE" ">>" "$VERSION"; then
+	VERSION="$DATE-1"
+else
+	PKG_COUNT=$(head -n 1 $CHANGELOG | sed -e 's/.*(.*-\([0-9]\+\)).*/\1/')
+	VERSION="$DATE-$(($PKG_COUNT + 1))"
+fi
+dch -c $CHANGELOG -v "$VERSION" -D unstable --force-distribution

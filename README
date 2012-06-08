@@ -1,0 +1,35 @@
+TL;DR
+=====
+
+vim lucid/genome-snapshot-deps-perl
+bin/dch lucid
+git commit
+make lucid
+tgi-dput -r genome-snapshot-deps_*.changes
+
+How to Add New Dependencies
+===========================
+
+- Add the dependency to the appropriate meta-package list in the distro directory, e.g. genome-snapshot-deps-perl.
+- Update the changelog in the distro directory by running `bin/dch $DISTRO`.
+- Commit your changes.
+
+How to Build
+============
+
+All you have to do is run `make lucid` this will generate the N debs and a changes file in the parent folder.
+
+How to Add New Meta-packages
+============================
+
+- Make a new dependency list with the meta-package's name in the distro directory.
+- Add a case in bin/build-control similar to the existing ones but change the Depends or Description as needed.
+- Add that new meta-package as a dependency of genome-snapshot-deps in bin/build-control.
+
+How to Add a New Distro
+=======================
+
+You should only need to make a new distro if the are dependency differences between them. We may want to re-evaluate how to do this in the case of multiple distros.
+
+- Add a case in bin/build-control to use your distro's debhelper version.
+- For convenience, setup a rule in the Makefile. See the lucid rule.

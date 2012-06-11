@@ -2,7 +2,13 @@
 set -o errexit
 set -o pipefail
 
+if [ -z "$1" ]; then
+    echo "Must specify a distro, e.g. lucid."
+    exit 1
+fi
 DISTRO=$1
+shift
+
 CHANGELOG="$DISTRO/changelog"
 
 VERSION=$(head -n 1 $CHANGELOG | sed -e 's/.*(\(.*\)-[0-9]\+).*/\1/')

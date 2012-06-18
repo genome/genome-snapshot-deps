@@ -27,6 +27,11 @@ for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
     echo "Package: $PKG"
     echo "Architecture: all"
     case $PKG in
+        genome-snapshot-apps-external)
+            echo "Depends:"
+            cat_deps "$DISTRO/$PKG"
+            echo "Description: This meta-package installs all external app dependencies of the current internal TGI Genome Modeling System software snapshot."
+            ;;
         genome-snapshot-deps-perl)
             echo "Depends: \${misc:Depends}, \${perl:Depends},"
             cat_deps "$DISTRO/$PKG"
@@ -43,5 +48,5 @@ done
 echo "Package: genome-snapshot-deps"
 echo "Architecture: all"
 echo "Provides: genome"
-echo "Depends: genome-snapshot-deps-perl (= \${source:Version}), genome-snapshot-deps-r (= \${source:Version})"
+echo "Depends: genome-snapshot-deps-perl (= \${source:Version}), genome-snapshot-deps-r (= \${source:Version}), genome-snapshot-apps-external (= \${source:Version})"
 echo "Description: This meta-package installs all dependencies of the current TGI Genome Modeling System software snapshot."

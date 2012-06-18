@@ -25,7 +25,7 @@ IFS="
 "
 i=0
 LAST_TAG=$(git describe --tags --match 'lucid-*' | sed -r -e 's/-[0-9]+-g[a-z0-9]+$//')
-for CHANGE in $(git log --format="[%h] %s" $LAST_TAG -- $DISTRO | grep -v 'updated changelog'); do
+for CHANGE in $(git log --format="[%h] %s" $LAST_TAG.. -- $DISTRO | grep -v 'updated changelog'); do
     if [ "$i" == "0" ]; then
         dch -c $CHANGELOG -v "$VERSION" -D $DISTRO "$CHANGE"
     else

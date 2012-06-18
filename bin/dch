@@ -33,3 +33,5 @@ for CHANGE in $(git log --format="[%h] %s" $LAST_TAG -- $DISTRO | grep -v 'updat
     fi
     i=$(( $i + 1 ))
 done
+git commit $CHANGELOG -m 'updated changelog'
+git tag -f -a lucid-$VERSION -m "rebuilt lucid #$BUILD_NUMBER"

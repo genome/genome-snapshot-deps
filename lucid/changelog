@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.06.18-1) lucid; urgency=low
+
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [97816f4] add dput
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 13:22:02 -0500
+
 genome-snapshot-deps (2012.06.08-1) unstable; urgency=low
 
   * Merged meta-packages into one source package.

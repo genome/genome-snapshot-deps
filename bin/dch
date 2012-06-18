@@ -24,7 +24,7 @@ CHANGES=()
 IFS="
 "
 i=0
-for CHANGE in $(git log --format="[%h] %s" lucid..); do
+for CHANGE in $(git log --format="[%h] %s" $DISTRO.. -- $DISTRO | grep -v 'updated changelog'); do
     if [ "$i" == "0" ]; then
         dch -c $CHANGELOG -v "$VERSION" -D $DISTRO "$CHANGE"
     else

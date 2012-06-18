@@ -2,22 +2,21 @@ TL;DR
 =====
 
 vim lucid/genome-snapshot-deps-perl
-bin/dch lucid
 git commit
-make lucid
-tgi-dput -r genome-snapshot-deps_*.changes
+make lucid # manual build to test
+git push
 
 How to Add New Dependencies
 ===========================
 
 - Add the dependency to the appropriate meta-package list in the distro directory, e.g. genome-snapshot-deps-perl.
-- Update the changelog in the distro directory by running `bin/dch $DISTRO`.
 - Commit your changes.
 
 How to Build
 ============
 
-All you have to do is run `make lucid` this will generate the N debs and a changes file in the parent folder.
+The packages are automatically built and pushed by Jenkins.
+If you want to build manually all you have to do is run `make lucid` this will generate the N debs and a changes file in the parent folder.
 
 How to Add New Meta-packages
 ============================

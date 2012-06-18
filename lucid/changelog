@@ -1,3 +1,11 @@
+genome-snapshot-deps (2012.06.18-5) lucid; urgency=low
+
+  * [d42d4ac] fix misnamed apps-external package
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [e308f05] Merged meta-packages into one source package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 14:09:21 -0500
+
 genome-snapshot-deps (2012.06.18-4) lucid; urgency=low
 
   * [e308f05] Merged meta-packages into one source package.

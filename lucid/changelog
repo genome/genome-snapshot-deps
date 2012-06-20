@@ -1,3 +1,11 @@
+genome-snapshot-deps (2012.06.20-1) lucid; urgency=low
+
+  * [82e78fb] Change throwable-perl to lower version; add space to req
+    version for strict constructor
+  * [0e9d239] Add perl deps for GSC classes
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Jun 2012 13:32:49 -0500
+
 genome-snapshot-deps (2012.06.18-7) lucid; urgency=low
 
   * [d42d4ac] fix misnamed apps-external package

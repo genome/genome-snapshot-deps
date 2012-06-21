@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.06.21-1) lucid; urgency=low
+
+  * [6109545] lower required version of libmooser-perl to 1.17
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Jun 2012 15:36:10 -0500
+
 genome-snapshot-deps (2012.06.20-1) lucid; urgency=low
 
   * [82e78fb] Change throwable-perl to lower version; add space to req

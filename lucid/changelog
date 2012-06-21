@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.06.21-2) lucid; urgency=low
+
+  * [3e02124] lower required version for libmoosex-strictconstructor-
+    perl to 0.08-1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Jun 2012 17:06:17 -0500
+
 genome-snapshot-deps (2012.06.21-1) lucid; urgency=low
 
   * [6109545] lower required version of libmooser-perl to 1.17

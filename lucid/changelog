@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.06.25-2) lucid; urgency=low
+
+  * [f36ae5d] Add libdevel-nytprof-perl and libguard-perl to genome-
+    snapshot-deps-perl.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 25 Jun 2012 17:36:12 -0500
+
 genome-snapshot-deps (2012.06.25-1) lucid; urgency=low
 
   * [c09fec5] Add polymutt as an external app dep

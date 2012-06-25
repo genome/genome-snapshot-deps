@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.06.25-1) lucid; urgency=low
+
+  * [c09fec5] Add polymutt as an external app dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 25 Jun 2012 17:01:11 -0500
+
 genome-snapshot-deps (2012.06.21-2) lucid; urgency=low
 
   * [3e02124] lower required version for libmoosex-strictconstructor-

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.06.27-1) lucid; urgency=low
+
+  * [11a7e38] Add minimum version for polymutt 0.10
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 27 Jun 2012 11:51:22 -0500
+
 genome-snapshot-deps (2012.06.25-2) lucid; urgency=low
 
   * [f36ae5d] Add libdevel-nytprof-perl and libguard-perl to genome-

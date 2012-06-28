@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.06.28-1) lucid; urgency=low
+
+  * [c3ff86b] Perl deps: set moose and moosex strict con versions to =
+    instead of >=
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 28 Jun 2012 15:20:25 -0500
+
 genome-snapshot-deps (2012.06.27-1) lucid; urgency=low
 
   * [11a7e38] Add minimum version for polymutt 0.10

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.06.29-1) lucid; urgency=low
+
+  * [6953023] Added trinity as an external ap dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Jun 2012 16:46:23 -0500
+
 genome-snapshot-deps (2012.06.28-1) lucid; urgency=low
 
   * [c3ff86b] Perl deps: set moose and moosex strict con versions to =

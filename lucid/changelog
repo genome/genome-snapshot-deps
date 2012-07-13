@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.07.13-1) lucid; urgency=low
+
+  * [5ec8ebd] added Perl modules required to compile the snapshot on a
+    bare lucid box
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 12:10:51 -0500
+
 genome-snapshot-deps (2012.07.12-1) lucid; urgency=low
 
   * [266e741] Add external pacakge bsmap version 2.6

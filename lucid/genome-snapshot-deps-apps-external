@@ -2,3 +2,4 @@ sra-toolkit
 polymutt0.10 (>= 0.10-1)
 trinity2012-05-18
 bsmap2.6
+openjdk-6-jre (>= 6b20-1.9.13-0ubuntu1~10.04.1)

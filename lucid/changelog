@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.13-3) lucid; urgency=low
+
+  * [2332af9] added libdata-compare-perl (Data::Compare)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 15:30:52 -0500
+
 genome-snapshot-deps (2012.07.13-2) lucid; urgency=low
 
   * [6e9113e] added genome-snapshot-deps-apps-tgi

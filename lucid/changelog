@@ -1,3 +1,11 @@
+genome-snapshot-deps (2012.07.13-4) lucid; urgency=low
+
+  * [4fdc313] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [6b7f926] added libset-intspan-perl (Set::IntSpan)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 15:35:51 -0500
+
 genome-snapshot-deps (2012.07.13-3) lucid; urgency=low
 
   * [2332af9] added libdata-compare-perl (Data::Compare)

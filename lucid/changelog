@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.07.13-2) lucid; urgency=low
+
+  * [6e9113e] added genome-snapshot-deps-apps-tgi
+  * [2f95370] added librt-client-rest-perl (RT::Client::REST)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 14:40:53 -0500
+
 genome-snapshot-deps (2012.07.13-1) lucid; urgency=low
 
   * [5ec8ebd] added Perl modules required to compile the snapshot on a

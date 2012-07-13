@@ -1,3 +1,11 @@
+genome-snapshot-deps (2012.07.13-6) lucid; urgency=low
+
+  * [64baf22] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [187e432] added openjdk-6-jre to genome-snapshot-deps-apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 16:10:50 -0500
+
 genome-snapshot-deps (2012.07.13-5) lucid; urgency=low
 
   * [7cc1538] added libgd-graph-perl (GD::Graph)

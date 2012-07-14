@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.07.14-1) lucid; urgency=low
+
+  * [67a14d0] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [f6aa877] added Perl modules libemail-valid-perl (EmaiL::Valid) and
+    libfile-which-perl (File::Which)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 14 Jul 2012 11:55:51 -0500
+
 genome-snapshot-deps (2012.07.13-8) lucid; urgency=low
 
   * [17b9ea5] Merge branch 'master' of ssh://git/srv/git/genome-

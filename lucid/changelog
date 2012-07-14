@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.07.13-8) lucid; urgency=low
+
+  * [17b9ea5] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [18773c4] added weka and openjdk-6-jdk to apps-external so that our
+    Inline::Java Weka tools will work
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 17:05:51 -0500
+
 genome-snapshot-deps (2012.07.13-7) lucid; urgency=low
 
   * [5741aa0] Merge branch 'master' of ssh://git/srv/git/genome-

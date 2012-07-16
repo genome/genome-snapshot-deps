@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.16-1) lucid; urgency=low
+
+  * [531546c] fixed typo in lib-email-valid-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 16 Jul 2012 09:25:50 -0500
+
 genome-snapshot-deps (2012.07.14-2) lucid; urgency=low
 
   * [a276c18] Merge branch 'master' of ssh://git/srv/git/genome-

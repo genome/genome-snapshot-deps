@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.07.16-2) lucid; urgency=low
+
+  * [3386af6] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [2e485ec] updated version numbers to prevent install conflicts in
+    genome-snapshot-deps-apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 16 Jul 2012 09:40:51 -0500
+
 genome-snapshot-deps (2012.07.16-1) lucid; urgency=low
 
   * [531546c] fixed typo in lib-email-valid-perl

@@ -10,7 +10,18 @@ How to Add New Dependencies
 ===========================
 
 - Add the dependency to the appropriate meta-package list in the distro directory, e.g. genome-snapshot-deps-perl.
+    vim lucid/genome-snapshot-deps-perl
+
+- Test the meta-package before committing and pushing (mostly in case of typos):
+    make lucid
+    cd ..
+    sudo dpkg -i *.deb
+
 - Commit your changes.
+    git commit -m 'added libfoo-bar-perl (Foo::Bar) to genome-snapshot-deps perl'
+
+- Push, so Jenkins will build things.
+    git push origin master
 
 How to Build
 ============

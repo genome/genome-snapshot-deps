@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.17-1) lucid; urgency=low
+
+  * [57a1bae] Add far2.17.0 dep to apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 17 Jul 2012 15:50:52 -0500
+
 genome-snapshot-deps (2012.07.16-2) lucid; urgency=low
 
   * [3386af6] Merge branch 'master' of ssh://git/srv/git/genome-

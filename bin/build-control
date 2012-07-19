@@ -37,6 +37,11 @@ for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
             cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all externally developed apps and libraries which are dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
+        genome-snapshot-deps-python)
+            echo "Depends:"
+            cat_deps "$DISTRO/$PKG"
+            echo "Description: This meta-package installs all external Python dependencies of the current internal TGI Genome Modeling System software snapshot."
+            ;;
         genome-snapshot-deps-perl)
             echo "Depends: \${misc:Depends}, \${perl:Depends},"
             cat_deps "$DISTRO/$PKG"
@@ -53,6 +58,11 @@ done
 echo "Package: genome-snapshot-deps"
 echo "Architecture: all"
 echo "Provides: genome"
-echo "Depends: genome-snapshot-deps-perl (= \${source:Version}), genome-snapshot-deps-r (= \${source:Version}), genome-snapshot-deps-apps-external (= \${source:Version}), genome-snapshot-deps-apps-tgi (= \${source:Version})"
+echo "Depends:"
+echo "  genome-snapshot-deps-perl (= \${source:Version}),"
+echo "  genome-snapshot-deps-python (= \${source:Version}),"
+echo "  genome-snapshot-deps-r (= \${source:Version}),"
+echo "  genome-snapshot-deps-apps-external (= \${source:Version}),"
+echo "  genome-snapshot-deps-apps-tgi (= \${source:Version})"
 echo "Description: This meta-package installs all dependencies of the current TGI Genome Modeling System software snapshot."
 

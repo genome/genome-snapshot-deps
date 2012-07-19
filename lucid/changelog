@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.07.19-1) lucid; urgency=low
+
+  * [c993e52] add a bunch of tgi apps
+  * [8637cbb] added a bunch of external apps
+  * [4ce60ee] add r-cran-mixdist
+  * [8557f44] add a genome-snapshot-deps-python meta-package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 19 Jul 2012 15:00:53 -0500
+
 genome-snapshot-deps (2012.07.18-1) lucid; urgency=low
 
   * [913c430] update joinx version to 1.6.6

@@ -1,9 +1,27 @@
-sra-toolkit (>= 2.1.10-1)
-polymutt0.10 (>= 0.10-1)
-trinity2012-05-18 (>= 2012-05-18) 
 bsmap2.6 (>= 2.6-1)
-default-jre-headless (>= 1.6-34)
+default-jdk
 far2.17.0 (= 2.17.0-1)
-openjdk-6-jdk (>= 6b20-1.9.9-0ubuntu1~10.04.2)
-openjdk-6-jre (>= 6b20-1.9.9-0ubuntu1~10.04.2)
+flash1.0.2
+freebayes0.9.4
+genetorrent
+mgltools1.5.6
+mutalin5.4.1
+oracle-instantclient
+pairoscope0.3
+plink
+polymutt0.02
+polymutt0.10 (>= 0.10-1)
+samtools
+samtools-hybrid0.1.7a
+sra-toolkit (>= 2.1.10-1)
+statgen0.1.4
+tabix
+tophat-fusion0.1.0
+tophat1.3.1alt
+tophat1.3.3
+tophat1.4.0
+tophat2.0.0
+trinity2012-05-18 (>= 2012-05-18)
+vaast1.0.1
+velvet1.2.03
 weka (>= 3.6.0-2)

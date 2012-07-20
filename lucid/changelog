@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.20-1) lucid; urgency=low
+
+  * [ac993ea] Add dep for R package CummeRbund
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 20 Jul 2012 11:15:56 -0500
+
 genome-snapshot-deps (2012.07.19-1) lucid; urgency=low
 
   * [c993e52] add a bunch of tgi apps

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.24-3) lucid; urgency=low
+
+  * [6089ace] add two more missing deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 14:26:51 -0500
+
 genome-snapshot-deps (2012.07.24-2) lucid; urgency=low
 
   * [a9ef00f] typo

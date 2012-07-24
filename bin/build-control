@@ -52,6 +52,16 @@ for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
             cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all external R dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
+        genome-snapshot-deps-ur)
+            echo "Depends:"
+            cat_deps "$DISTRO/$PKG"
+            echo "Description: This meta-package installs the UR dependencies. Eventually this should just be replaced with libur-perl."
+            ;;
+        genome-snapshot-deps-workflow)
+            echo "Depends:"
+            cat_deps "$DISTRO/$PKG"
+            echo "Description: This meta-package installs the Workflow dependencies. Eventually this should just be replaced with libworkflow-perl."
+            ;;
     esac
     echo ""
 done
@@ -64,5 +74,7 @@ echo "  genome-snapshot-deps-python (= \${source:Version}),"
 echo "  genome-snapshot-deps-r (= \${source:Version}),"
 echo "  genome-snapshot-deps-apps-external (= \${source:Version}),"
 echo "  genome-snapshot-deps-apps-tgi (= \${source:Version})"
+echo "  genome-snapshot-deps-ur (= \${source:Version})"
+echo "  genome-snapshot-deps-workflow (= \${source:Version})"
 echo "Description: This meta-package installs all dependencies of the current TGI Genome Modeling System software snapshot."
 

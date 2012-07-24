@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.24-4) lucid; urgency=low
+
+  * [d69b2a8] Add latest bowtie
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 15:58:51 -0500
+
 genome-snapshot-deps (2012.07.24-3) lucid; urgency=low
 
   * [6089ace] add two more missing deps

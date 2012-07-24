@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.07.24-1) lucid; urgency=low
+
+  * [c0526cc] add ur and workflow deps
+  * [29ee31d] added more missing deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 11:26:55 -0500
+
 genome-snapshot-deps (2012.07.20-1) lucid; urgency=low
 
   * [ac993ea] Add dep for R package CummeRbund

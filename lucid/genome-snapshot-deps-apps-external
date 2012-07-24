@@ -1,16 +1,32 @@
+abyss1.3.0
+abyss1.3.1
+allpathslg-41055
+apbs
+apollo1.11.6
+blast2
+bsmap2.42
 bsmap2.6 (>= 2.6-1)
+chimerascan0.4.5
+clustalw
+cufflinks1.3.0o
 default-jdk
 far2.17.0 (= 2.17.0-1)
 flash1.0.2
 freebayes0.9.4
 genetorrent
+kalign
+mafft
 mgltools1.5.6
+muscle
 mutalin5.4.1
+ncbi-data
 oracle-instantclient
 pairoscope0.3
 plink
 polymutt0.02
 polymutt0.10 (>= 0.10-1)
+probcons
+pymol
 samtools
 samtools-hybrid0.1.7a
 sra-toolkit (>= 2.1.10-1)
@@ -23,5 +39,6 @@ tophat1.4.0
 tophat2.0.0
 trinity2012-05-18 (>= 2012-05-18)
 vaast1.0.1
+vcftools
 velvet1.2.03
 weka (>= 3.6.0-2)

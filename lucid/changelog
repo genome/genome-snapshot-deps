@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.07.24-2) lucid; urgency=low
+
+  * [a9ef00f] typo
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 11:32:51 -0500
+
 genome-snapshot-deps (2012.07.24-1) lucid; urgency=low
 
   * [c0526cc] add ur and workflow deps

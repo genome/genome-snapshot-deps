@@ -9,6 +9,7 @@ if [ ! -d "$DISTRO" ]; then
 fi
 
 function cat_deps {
+    echo "Depends:"
     cat $1 | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/'
 }
 
@@ -26,40 +27,27 @@ echo ""
 for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
     echo "Package: $PKG"
     echo "Architecture: all"
+    cat_deps "$DISTRO/$PKG"
     case $PKG in
         genome-snapshot-deps-apps-tgi)
-            echo "Depends:"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all internally developed apps and libraries which are dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
         genome-snapshot-deps-apps-external)
-            echo "Depends:"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all externally developed apps and libraries which are dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
         genome-snapshot-deps-python)
-            echo "Depends:"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all external Python dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
         genome-snapshot-deps-perl)
-            echo "Depends: \${misc:Depends}, \${perl:Depends},"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all external Perl dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
         genome-snapshot-deps-r)
-            echo "Depends: \${misc:Depends},"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs all external R dependencies of the current internal TGI Genome Modeling System software snapshot."
             ;;
         genome-snapshot-deps-ur)
-            echo "Depends:"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs the UR dependencies. Eventually this should just be replaced with libur-perl."
             ;;
         genome-snapshot-deps-workflow)
-            echo "Depends:"
-            cat_deps "$DISTRO/$PKG"
             echo "Description: This meta-package installs the Workflow dependencies. Eventually this should just be replaced with libworkflow-perl."
             ;;
     esac
@@ -69,12 +57,8 @@ echo "Package: genome-snapshot-deps"
 echo "Architecture: all"
 echo "Provides: genome"
 echo "Depends:"
-echo "  genome-snapshot-deps-perl (= \${source:Version}),"
-echo "  genome-snapshot-deps-python (= \${source:Version}),"
-echo "  genome-snapshot-deps-r (= \${source:Version}),"
-echo "  genome-snapshot-deps-apps-external (= \${source:Version}),"
-echo "  genome-snapshot-deps-apps-tgi (= \${source:Version})"
-echo "  genome-snapshot-deps-ur (= \${source:Version})"
-echo "  genome-snapshot-deps-workflow (= \${source:Version})"
+for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
+    echo "  $PKG (= \${source:Version}),"
+done
 echo "Description: This meta-package installs all dependencies of the current TGI Genome Modeling System software snapshot."
 

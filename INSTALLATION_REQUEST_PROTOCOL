@@ -1,10 +1,4 @@
 
-There are three new lists in the genome-snapshot-deps package:
-* unpackaged-pipeline
-* unpackaged-non-pipeline
-* unpackaged-abandoned
-
-
 1. Initial requests for analysis software go to the apipe-support queue.
 
 2. If the software is an update to something already used in a pipeline, or is ready immediately to go into a pipeline:
@@ -35,4 +29,12 @@ There are three new lists in the genome-snapshot-deps package:
 5.1 The developer digs out the stashed code from /gsc/pkg/bio or bio-archive.
 5.2 We begin, with a head start, on packaging, using the above.
 5.3 We retire the version under /gsc/pkg/bio as described under 4.2 above.
+
+In Summary, there are three new lists in the genome-snapshot-deps package which track all new unpackaged software.
+From the time a request comes in for software it is put in one of these lists, and it only leaves this set of lists when it is actually packaged.
+* unpackaged-pipeline       Old things the pipeline uses from /gsc/pkg/bio (never grow this)
+* unpackaged-non-pipeline   New things in /gsc/pkg/bio not used in pipelines
+* unpackaged-abandoned      When we stop using something in /gsc/pkg/bio and hide it, list it here.
+
+For details on the lists of packaged software, see the general README in the genome-snapshot-deps package.
 

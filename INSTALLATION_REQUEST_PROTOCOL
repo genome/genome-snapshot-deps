@@ -1,0 +1,38 @@
+
+There are three new lists in the genome-snapshot-deps package:
+* unpackaged-pipeline
+* unpackaged-non-pipeline
+* unpackaged-abandoned
+
+
+1. Initial requests for analysis software go to the apipe-support queue.
+
+2. If the software is an update to something already used in a pipeline, or is ready immediately to go into a pipeline:
+2.1 The ticket moves into the apipe-install queue.
+2.2 APIPE fire team does packaging for the cluster.
+
+3. For requests NOT directly to be used in a pipeline:
+3.1 APIPE move the ticket into hardware as before.
+3.2 APIPE adds a line to the unpackged-non-pipeline file in the genome-snapshot-deps package.
+3.3 Rich or others in User Support perform their traditional role installing to /gsc/pkg/bio.
+3.4 After installation, the ticket goes into the apipe-install queue, with a status of "stalled".
+3.5 Analysts use the software.
+
+4. The APIPE fire team identifies apipe-install tickets from the above which are "stalled" and > 60 days old.
+4.1 They check with the analysts to see whether the software is still being used.
+4.2 If it is NOT in use:
+    * APIPE moves it from /gsc/pkg/bio into another location which is inaccessible to the blades and home directories, (/gsc/pkg/bio-archive?).
+    * It is removed from the list genome-snapshot-deps/unpackaged-non-pipeline list and added to genome-snapshot-deps/unpackaged-abandoned.
+4.3 If it IS in use, and we know it needs to go into a pipeline:
+    * The ticket is moved out of the stalled state.
+    * Developers working on that pipeline do the packaging.
+    * It is removed from the genome-snapshot-deps/unpackaged-non-pipeline list, and is put into the appropriate package list.
+4.4 If it IS in use, but still not in pipelines, just ad-hoc analyst tools:
+    * APIPE simply resolves the ticket.
+    * Packages lists are left as they were.
+
+5. Later, if the tool under /gsc/pkg/bio needs to be run from a pipeline:
+5.1 The developer digs out the stashed code from /gsc/pkg/bio or bio-archive.
+5.2 We begin, with a head start, on packaging, using the above.
+5.3 We retire the version under /gsc/pkg/bio as described under 4.2 above.
+

@@ -50,6 +50,9 @@ for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
         genome-snapshot-deps-workflow)
             echo "Description: This meta-package installs the Workflow dependencies. Eventually this should just be replaced with libworkflow-perl."
             ;;
+        genome-snapshot-deps-lims)
+            echo "Description: This meta-package installs the LIMS-APipe bridge dependencies."
+            ;;
     esac
     echo ""
 done

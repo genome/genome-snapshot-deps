@@ -73,6 +73,7 @@ libdbix-class-perl (>= 0.08115-1)
 libdbix-contextualfetch-perl (>= 1.03-3)
 libdevel-globaldestruction-perl (>= 0.02-1)
 libdevel-nytprof-perl (>= 3.01-1)
+libdevel-ptkdb-perl
 libdevel-repl-perl
 libdevel-size-perl (>= 0.71-1)
 libdevel-stacktrace-ashtml-perl (>= 0.11-1)
@@ -246,4 +247,3 @@ perl-modules (>= 5.10.1-8ubuntu2.1)
 perl-suid (>= 5.10.1-8ubuntu2.1)
 perl-tk (>= 1:804.028-6)
 proj-data (>= 4.7.0-1)
-libdevel-ptkdb-perl

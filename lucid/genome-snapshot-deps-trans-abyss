@@ -1,0 +1,7 @@
+cython
+libconfig-general-perl
+libio-compress-perl
+libset-intspan-perl
+python-biopython
+python-pyrex
+python-pysam

@@ -23,6 +23,9 @@ How to Add New Dependencies
 - Push, so Jenkins will build things.
     git push origin master
 
+- Jenkins will first build a new genome-snapshot-deps* (https://apipe-ci.gsc.wustl.edu/view/Genome%20Packaging/job/genome-snapshot-deps-lucid/).
+- If that succeeds it will the queue those package for our private repo (https://apipe-ci.gsc.wustl.edu/view/Genome%20Packaging/job/6_Publish_Debs_to_Private_Apt/).
+
 How to Build
 ============
 

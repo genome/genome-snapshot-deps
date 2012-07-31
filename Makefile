@@ -12,10 +12,13 @@ debian: validate
 	cp -a $(DISTRO)/compat debian/
 	cp -a $(DISTRO)/changelog debian/
 	bin/build-control $(DISTRO) > debian/control
-	dpkg-buildpackage -uc -A
+	dpkg-buildpackage $(BUILD_FLAGS)
+
+lucid-source:
+	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='-uc -us -S'
 
 lucid:
-	$(MAKE) debian DISTRO=lucid
+	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='uc -A'
 
 all:
 	$(MAKE) lucid

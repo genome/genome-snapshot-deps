@@ -29,4 +29,4 @@ libxml-libxml-perl (>= 1.70.ds-1)
 libxml-simple-perl (>= 2.18-3)
 libxml-xslt-perl (>= 0.48-3)
 libyaml-perl (>= 0.71-1)
-perl-modules
+perl-modules (>= 5.10.1-8ubuntu2.1)

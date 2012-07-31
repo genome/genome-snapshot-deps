@@ -3,7 +3,7 @@ TL;DR
 
 vim lucid/genome-snapshot-deps-perl
 git commit
-make lucid # manual build to test
+make all # manual build to test
 git push
 
 How to Add New Dependencies
@@ -13,7 +13,7 @@ How to Add New Dependencies
     vim lucid/genome-snapshot-deps-perl
 
 - Test the meta-package before committing and pushing (mostly in case of typos):
-    make lucid
+    make all
     cd ..
     sudo dpkg -i *.deb
 
@@ -30,7 +30,7 @@ How to Build
 ============
 
 The packages are automatically built and pushed by Jenkins.
-If you want to build manually all you have to do is run `make lucid` this will generate the N debs and a changes file in the parent folder.
+If you want to build manually all you have to do is run `make all` this will generate the N debs and a changes file in the parent folder.
 
 How to Add New Meta-packages
 ============================

@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.07.31-1) lucid; urgency=low
+
+  * [d5e0060] add genome-snapshot-deps-refcov
+  * [97e6fed] add genome-snapshot-deps-trans-abyss
+  * [dc02759] sort
+  * [f579655] move deps related to LIMS to separate package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 31 Jul 2012 14:27:25 -0500
+
 genome-snapshot-deps (2012.07.24-4) lucid; urgency=low
 
   * [d69b2a8] Add latest bowtie

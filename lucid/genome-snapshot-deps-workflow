@@ -1,22 +1,22 @@
-libanyevent-perl
-libdbd-oracle-perl
-libfile-grep-perl
-libfile-which-perl
-libforks-perl
-libgraphviz-perl
-libguard-perl
-libipc-run-perl
-libmime-tools-perl
-libpoe-component-ikc-perl
-libpoe-perl
-libtemplate-perl
-libtest-simple-perl
-libtext-csv-perl
-libtime-hires-perl
-libtimedate-perl
-libur-perl
-liburi-perl
-libxml-libxml-perl
-libxml-libxslt-perl
-libxml-simple-perl
-libyaml-perl
+libanyevent-perl (>= 5.240-1ubuntu0.1)
+libdbd-oracle-perl (>= 1.28-1)
+libfile-grep-perl (>= 0.02-1)
+libfile-which-perl (>= 1.08-1)
+libforks-perl (>= 0.33-1)
+libgraphviz-perl (>= 2.04-1)
+libguard-perl (>= 1.02-1)
+libipc-run-perl (>= 0.84-1)
+libmime-tools-perl (>= 5.427-2)
+libpoe-component-ikc-perl (>= 0.2001-1)
+libpoe-perl (>= 2:1.2840-1)
+libtemplate-perl (>= 2.20-1build1)
+libtest-simple-perl (>= 0.94-1)
+libtext-csv-perl (>= 1.16-1)
+libtime-hires-perl (>= (none))
+libtimedate-perl (>= 1.1900-1)
+libur-perl (>= 0.38-1)
+liburi-perl (>= 1.52-1)
+libxml-libxml-perl (>= 1.70.ds-1)
+libxml-libxslt-perl (>= 1.70-1)
+libxml-simple-perl (>= 2.18-3)
+libyaml-perl (>= 0.71-1)

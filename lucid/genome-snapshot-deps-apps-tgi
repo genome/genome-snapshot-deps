@@ -1,15 +1,15 @@
-bam-readcount0.4
-breakdancer1.1
-breakdancer1.2
-breakdancer1.3
-ibwa-0.5.9-0.3
-ibwa-0.5.9-0.4
-joinx1.1
-joinx1.2
-joinx1.3
-joinx1.4
-joinx1.5
+bam-readcount0.4 (>= 0.4.3)
+breakdancer1.1 (>= 1.1.1)
+breakdancer1.2 (>= 1.2.6)
+breakdancer1.3 (>= 1.3.5)
+ibwa-0.5.9-0.3 (>= 0.3.1)
+ibwa-0.5.9-0.4 (>= 0.4.0)
+joinx1.1 (>= 1.1.4)
+joinx1.2 (>= 1.2.9)
+joinx1.3 (>= 1.3.8)
+joinx1.4 (>= 1.4.0)
+joinx1.5 (>= 1.5.3)
 joinx1.6 (>= 1.6.6)
-pindel0.2.4o
-somatic-sniper1.0.0
-tigra-sv0.1
+pindel0.2.4o (>= 0.2.4o-2)
+somatic-sniper1.0.0 (>= 1.0.0)
+tigra-sv0.1 (>= 0.1.3)

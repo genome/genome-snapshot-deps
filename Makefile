@@ -1,7 +1,14 @@
 .PHONY: validate lucid nothing
 
 nothing:
-	@echo "'make <DISTRO>' to re-generate the debian directory"
+	@echo "'make all' to build all binaries."
+	@echo "'make source' to build only source package."
+
+source:
+	$(MAKE) debian BUILD_FLAGS='-uc -us -S'
+
+all:
+	$(MAKE) debian BUILD_FLAGS='-uc -A'
 
 purge:
 	rm -f ../genome-snapshot-deps*.changes ../genome-snapshot-deps*.deb
@@ -14,16 +21,10 @@ debian: validate
 	bin/build-control $(DISTRO) > debian/control
 	dpkg-buildpackage $(BUILD_FLAGS)
 
-lucid-source:
-	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='-uc -us -S'
-
-lucid:
-	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='-uc -A'
-
-all:
-	$(MAKE) lucid
-
 validate:
+ifndef DISTRO
+DISTRO:=$(shell lsb_release -sc)
+endif
 ifndef DISTRO
 	@echo "Must specify DISTRO argument, e.g. DISTRO=lucid"
 	@exit 1

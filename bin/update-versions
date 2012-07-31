@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+
+use IO::File;
+use Carp;
+
+my $codename = qx(lsb_release -sc); chomp $codename;
+unless ($codename eq 'lucid') {
+    die 'this must be run on a lucid box';
+}
+
+strict_system("sudo apt-get update");
+
+my @paths = glob('lucid/genome-snapshot-deps-*');
+for my $path (@paths) {
+    print($path, "\n");
+    my @new_content;
+    my $file = IO::File->new($path, 'r');
+    while (my $line = $file->getline) {
+        my $new_content;
+        if ($line =~ /=/) {
+            $new_content = $line;
+            chomp($new_content);
+        } else {
+            my ($package) = split(/\s/, $line);
+            print($package, "\n");
+            my @policy_output = qx(apt-cache policy $package);
+            my @candidate_output = grep { /Candidate/ } @policy_output;
+            if (@candidate_output == 0) {
+                die "failed to find a candidate for $package";
+            }
+            if (@candidate_output > 1) {
+                die "multiple candidates are not expected";
+            }
+            my ($candidate_version) = $candidate_output[0] =~ /\s*Candidate:\s+(\S+)/;
+            unless ($candidate_version) {
+                die "no match for candidate version";
+            }
+            $new_content = sprintf("%s (>= %s)", $package, $candidate_version);
+        }
+        push @new_content, $new_content;
+    }
+    $file->close();
+    $file = IO::File->new($path, 'w');
+    $file->print(join("\n", @new_content));
+    $file->close();
+}
+
+sub strict_system {
+    my $command = shift;
+    unless(system($command) == 0) {
+        croak "failed to `$command`";
+    }
+}

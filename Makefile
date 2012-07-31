@@ -18,7 +18,7 @@ lucid-source:
 	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='-uc -us -S'
 
 lucid:
-	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='uc -A'
+	$(MAKE) debian DISTRO=lucid BUILD_FLAGS='-uc -A'
 
 all:
 	$(MAKE) lucid

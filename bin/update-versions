@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 use IO::File;
 use Carp;
 
@@ -8,46 +11,47 @@ unless ($codename eq 'lucid') {
     die 'this must be run on a lucid box';
 }
 
-strict_system("sudo apt-get update");
+system("sudo apt-get update");
 
 my @paths = glob('lucid/genome-snapshot-deps-*');
 for my $path (@paths) {
     print($path, "\n");
+
     my @new_content;
     my $file = IO::File->new($path, 'r');
     while (my $line = $file->getline) {
-        my $new_content;
-        if ($line =~ /=/) {
-            $new_content = $line;
-            chomp($new_content);
+        my ($package, $version_spec) = $line =~ /^\s*(\S+)\s*(.*)\s*$/;
+        unless ($package) {
+            die "no match for package for '$line' in $path";
+        }
+        my ($operator, $version) = $version_spec =~ /\(\s*(<<|<=|=|>=|>>)\s*(\S+)\s*\)/;
+        if ($version_spec && (!$operator || !$version)) {
+            die "failed to match operator and version from version spec '$version_spec'";
+        }
+        if ($operator && $operator eq '=') {
+            print("preserving $package @ $version\n");
+            push @new_content, $line;
         } else {
+            print ("updating $package\n");
             my ($package) = split(/\s/, $line);
-            print($package, "\n");
             my @policy_output = qx(apt-cache policy $package);
             my @candidate_output = grep { /Candidate/ } @policy_output;
             if (@candidate_output == 0) {
-                die "failed to find a candidate for $package";
+                die "failed to find a candidate for $package in $path";
             }
             if (@candidate_output > 1) {
-                die "multiple candidates are not expected";
+                die "multiple candidates are not expected for $package in $path";
             }
             my ($candidate_version) = $candidate_output[0] =~ /\s*Candidate:\s+(\S+)/;
-            unless ($candidate_version) {
-                die "no match for candidate version";
+            if(!$candidate_version || $candidate_version eq '(none)') {
+                die "no match for candidate version for $package in $path";
             }
-            $new_content = sprintf("%s (>= %s)", $package, $candidate_version);
+            push @new_content, sprintf("%s (>= %s)\n", $package, $candidate_version);
         }
-        push @new_content, $new_content;
     }
     $file->close();
-    $file = IO::File->new($path, 'w');
-    $file->print(join("\n", @new_content));
-    $file->close();
-}
 
-sub strict_system {
-    my $command = shift;
-    unless(system($command) == 0) {
-        croak "failed to `$command`";
-    }
+    $file = IO::File->new($path, 'w');
+    $file->print(@new_content);
+    $file->close();
 }

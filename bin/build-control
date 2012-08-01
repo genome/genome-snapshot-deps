@@ -10,7 +10,7 @@ fi
 
 function cat_deps {
     echo "Depends:"
-    cat $1 | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/'
+    cat $1 | grep -v ^$ | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/'
 }
 
 echo "Source: genome-snapshot-deps"

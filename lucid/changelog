@@ -1,3 +1,13 @@
+genome-snapshot-deps (2012.08.01-1) lucid; urgency=low
+
+  * [9f724bc] add newline to end of file
+  * [2bab6b5] update versions
+  * [c9789b3] Time/HiRes.pm is in perl
+  * [6b4595b] version.pm is in perl-modules
+  * [b23c314] update minimum versions
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 01 Aug 2012 11:19:56 -0500
+
 genome-snapshot-deps (2012.07.31-1) lucid; urgency=low
 
   * [d5e0060] add genome-snapshot-deps-refcov

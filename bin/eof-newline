@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my @paths = glob('lucid/genome-snapshot-deps-*');
+for my $path (@paths) {
+    my $content = slurp($path);
+    if (substr($content, -1, 1) ne "\n") {
+        open(my $file, '>', $path) or die "Could not open file ($path): $!";
+        print({ $file } $content, "\n");
+        close($file);
+    }
+}
+
+sub slurp {
+    my $path = shift;
+    local $/ = undef;
+    open(my $file, '<', $path) or die "Could not open file ($path): $!";
+    my $content = <$file>;
+    close($file);
+    return $content;
+}

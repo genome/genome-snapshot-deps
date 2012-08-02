@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.08.02-1) lucid; urgency=low
+
+  * [6eb5906] update sniper dependency to 1.0.1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 02 Aug 2012 12:44:58 -0500
+
 genome-snapshot-deps (2012.08.01-1) lucid; urgency=low
 
   * [9f724bc] add newline to end of file

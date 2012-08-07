@@ -1,3 +1,11 @@
+genome-snapshot-deps (2012.08.07-1) lucid; urgency=low
+
+  * [2654544] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [f8c9b20] replace sniper 1.0.1 with 1.0.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 07 Aug 2012 14:32:41 -0500
+
 genome-snapshot-deps (2012.08.02-2) lucid; urgency=low
 
   * [9565e4b] downgrade biopython to non-backports version

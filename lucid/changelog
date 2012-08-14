@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.08.14-1) lucid; urgency=low
+
+  * [cd10f3a] add libur-perl and libworkflow-perl
+  * [de456b1] add libmail-sendmail-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 14 Aug 2012 12:03:13 -0500
+
 genome-snapshot-deps (2012.08.13-1) lucid; urgency=low
 
   * [2a8fd74] add libfile-copy-recursive-perl

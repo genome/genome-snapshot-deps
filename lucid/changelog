@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.08.17-1) lucid; urgency=low
+
+  * [2be2f17] Remove genetorrent.  It is built by LIMS and tracked
+    separately.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 17 Aug 2012 15:45:13 -0500
+
 genome-snapshot-deps (2012.08.14-1) lucid; urgency=low
 
   * [cd10f3a] add libur-perl and libworkflow-perl

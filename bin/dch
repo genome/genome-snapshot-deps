@@ -36,4 +36,10 @@ done
 if [ $i -gt 0 ]; then
     git commit $CHANGELOG -m 'updated changelog'
     git tag -f -a lucid-$VERSION -m "rebuilt lucid #$BUILD_NUMBER"
+else
+    if [ "$FORCE_REBUILD" == "true" ]; then
+        dch -c $CHANGELOG -v "$VERSION" -D $DISTRO "Forced rebuild with no changes to $DISTRO."
+        git commit $CHANGELOG -m 'updated changelog'
+        git tag -f -a lucid-$VERSION -m "forced rebuild lucid #$BUILD_NUMBER"
+    fi
 fi

@@ -9,7 +9,6 @@ if [ ! -d "$DISTRO" ]; then
 fi
 
 function cat_deps {
-    echo "Depends:"
     cat $1 | grep -v ^$ | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/'
 }
 
@@ -24,10 +23,20 @@ case $DISTRO in
 esac
 echo "Standards-Version: 3.8.3"
 echo ""
-for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
+for FILE in $(cd $DISTRO && ls genome-snapshot-deps-*.depends); do
+    PKG=${FILE/.depends}
     echo "Package: $PKG"
     echo "Architecture: all"
-    cat_deps "$DISTRO/$PKG"
+
+    echo "Depends:"
+    cat_deps "$DISTRO/$PKG.depends"
+
+    SUGGESTS="$DISTRO/$PKG.suggests"
+    if [ -f "$SUGGESTS" ]; then
+        echo "Suggests:"
+        cat_deps "$SUGGESTS"
+    fi
+
     case $PKG in
         genome-snapshot-deps-apps-tgi)
             echo "Description: This meta-package installs all internally developed apps and libraries which are dependencies of the current internal TGI Genome Modeling System software snapshot."

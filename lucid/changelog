@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.09.18-4) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:41:40 -0500
+
 genome-snapshot-deps (2012.09.18-3) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

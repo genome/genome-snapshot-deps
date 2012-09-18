@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.09.18-1) lucid; urgency=low
+
+  * [5c97dd6] added libconfig-inifiles-perl (Config::IniFiles) to
+    genome-snapshot-deps perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 13:48:48 -0500
+
 genome-snapshot-deps (2012.09.13-1) lucid; urgency=low
 
   * [c81699f] bump joinx version to 1.6.8

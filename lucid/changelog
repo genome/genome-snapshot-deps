@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.09.18-2) lucid; urgency=low
+
+  * [f2d4bea] move some older packages to suggests
+  * [e6ab7cb] support setting suggested packages
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:02:34 -0500
+
 genome-snapshot-deps (2012.09.18-1) lucid; urgency=low
 
   * [5c97dd6] added libconfig-inifiles-perl (Config::IniFiles) to

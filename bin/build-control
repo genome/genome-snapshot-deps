@@ -70,13 +70,13 @@ for FILE in $(cd $DISTRO && ls genome-snapshot-deps-*.depends); do
             ;;
     esac
     echo ""
+
+    META_DEPENDS="$PKG (= \${source:Version}), $META_DEPENDS"
 done
+
 echo "Package: genome-snapshot-deps"
 echo "Architecture: all"
 echo "Provides: genome"
-echo "Depends:"
-for PKG in $(cd $DISTRO && ls genome-snapshot-deps-*); do
-    echo "  $PKG (= \${source:Version}),"
-done
+echo "Depends: $META_DEPENDS"
 echo "Description: This meta-package installs all dependencies of the current TGI Genome Modeling System software snapshot."
 

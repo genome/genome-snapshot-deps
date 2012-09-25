@@ -1,0 +1,582 @@
+genome-snapshot-deps (2012.09.20-2) lucid; urgency=low
+
+  * [8d69322] update pairoscope version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 20 Sep 2012 16:56:49 -0500
+
+genome-snapshot-deps (2012.09.20-1) lucid; urgency=low
+
+  * [a1dfe04] add tophat and cufflinks
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 20 Sep 2012 09:16:48 -0500
+
+genome-snapshot-deps (2012.09.18-5) lucid; urgency=low
+
+  * [beed17e] update tigra-sv to v0.1.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:48:47 -0500
+
+genome-snapshot-deps (2012.09.18-4) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:41:40 -0500
+
+genome-snapshot-deps (2012.09.18-3) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:41:22 -0500
+
+genome-snapshot-deps (2012.09.18-2) lucid; urgency=low
+
+  * [f2d4bea] move some older packages to suggests
+  * [e6ab7cb] support setting suggested packages
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 14:02:34 -0500
+
+genome-snapshot-deps (2012.09.18-1) lucid; urgency=low
+
+  * [5c97dd6] added libconfig-inifiles-perl (Config::IniFiles) to
+    genome-snapshot-deps perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 18 Sep 2012 13:48:48 -0500
+
+genome-snapshot-deps (2012.09.13-1) lucid; urgency=low
+
+  * [c81699f] bump joinx version to 1.6.8
+
+ -- Travis Abbott <tabbott@linus129.gsc.wustl.edu>  Thu, 13 Sep 2012 15:48:38 -0500
+
+genome-snapshot-deps (2012.08.31-1) lucid; urgency=low
+
+  * [ae51844] bump joinx version from 1.6.6 -> 1.6.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 31 Aug 2012 13:50:50 -0500
+
+genome-snapshot-deps (2012.08.17-1) lucid; urgency=low
+
+  * [2be2f17] Remove genetorrent.  It is built by LIMS and tracked
+    separately.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 17 Aug 2012 15:45:13 -0500
+
+genome-snapshot-deps (2012.08.14-1) lucid; urgency=low
+
+  * [cd10f3a] add libur-perl and libworkflow-perl
+  * [de456b1] add libmail-sendmail-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 14 Aug 2012 12:03:13 -0500
+
+genome-snapshot-deps (2012.08.13-1) lucid; urgency=low
+
+  * [2a8fd74] add libfile-copy-recursive-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 13 Aug 2012 12:31:12 -0500
+
+genome-snapshot-deps (2012.08.07-1) lucid; urgency=low
+
+  * [2654544] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [f8c9b20] replace sniper 1.0.1 with 1.0.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 07 Aug 2012 14:32:41 -0500
+
+genome-snapshot-deps (2012.08.02-2) lucid; urgency=low
+
+  * [9565e4b] downgrade biopython to non-backports version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 02 Aug 2012 17:07:01 -0500
+
+genome-snapshot-deps (2012.08.02-1) lucid; urgency=low
+
+  * [6eb5906] update sniper dependency to 1.0.1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 02 Aug 2012 12:44:58 -0500
+
+genome-snapshot-deps (2012.08.01-1) lucid; urgency=low
+
+  * [9f724bc] add newline to end of file
+  * [2bab6b5] update versions
+  * [c9789b3] Time/HiRes.pm is in perl
+  * [6b4595b] version.pm is in perl-modules
+  * [b23c314] update minimum versions
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 01 Aug 2012 11:19:56 -0500
+
+genome-snapshot-deps (2012.07.31-1) lucid; urgency=low
+
+  * [d5e0060] add genome-snapshot-deps-refcov
+  * [97e6fed] add genome-snapshot-deps-trans-abyss
+  * [dc02759] sort
+  * [f579655] move deps related to LIMS to separate package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 31 Jul 2012 14:27:25 -0500
+
+genome-snapshot-deps (2012.07.24-4) lucid; urgency=low
+
+  * [d69b2a8] Add latest bowtie
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 15:58:51 -0500
+
+genome-snapshot-deps (2012.07.24-3) lucid; urgency=low
+
+  * [6089ace] add two more missing deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 14:26:51 -0500
+
+genome-snapshot-deps (2012.07.24-2) lucid; urgency=low
+
+  * [a9ef00f] typo
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 11:32:51 -0500
+
+genome-snapshot-deps (2012.07.24-1) lucid; urgency=low
+
+  * [c0526cc] add ur and workflow deps
+  * [29ee31d] added more missing deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Jul 2012 11:26:55 -0500
+
+genome-snapshot-deps (2012.07.20-1) lucid; urgency=low
+
+  * [ac993ea] Add dep for R package CummeRbund
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 20 Jul 2012 11:15:56 -0500
+
+genome-snapshot-deps (2012.07.19-1) lucid; urgency=low
+
+  * [c993e52] add a bunch of tgi apps
+  * [8637cbb] added a bunch of external apps
+  * [4ce60ee] add r-cran-mixdist
+  * [8557f44] add a genome-snapshot-deps-python meta-package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 19 Jul 2012 15:00:53 -0500
+
+genome-snapshot-deps (2012.07.18-1) lucid; urgency=low
+
+  * [913c430] update joinx version to 1.6.6
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 18 Jul 2012 11:45:37 -0500
+
+genome-snapshot-deps (2012.07.17-1) lucid; urgency=low
+
+  * [57a1bae] Add far2.17.0 dep to apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 17 Jul 2012 15:50:52 -0500
+
+genome-snapshot-deps (2012.07.16-2) lucid; urgency=low
+
+  * [3386af6] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [2e485ec] updated version numbers to prevent install conflicts in
+    genome-snapshot-deps-apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 16 Jul 2012 09:40:51 -0500
+
+genome-snapshot-deps (2012.07.16-1) lucid; urgency=low
+
+  * [531546c] fixed typo in lib-email-valid-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 16 Jul 2012 09:25:50 -0500
+
+genome-snapshot-deps (2012.07.14-2) lucid; urgency=low
+
+  * [a276c18] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [3b20d2c] added liblog-dispatch-filerotate-perl
+    (Log::Dispatch::FileRotate) and libwww-mechanize-perl
+    (WWW::Mechanize) to genome-snapshot-deps-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 14 Jul 2012 12:45:48 -0500
+
+genome-snapshot-deps (2012.07.14-1) lucid; urgency=low
+
+  * [67a14d0] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [f6aa877] added Perl modules libemail-valid-perl (EmaiL::Valid) and
+    libfile-which-perl (File::Which)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 14 Jul 2012 11:55:51 -0500
+
+genome-snapshot-deps (2012.07.13-8) lucid; urgency=low
+
+  * [17b9ea5] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [18773c4] added weka and openjdk-6-jdk to apps-external so that our
+    Inline::Java Weka tools will work
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 17:05:51 -0500
+
+genome-snapshot-deps (2012.07.13-7) lucid; urgency=low
+
+  * [5741aa0] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [e6171bb] added default-jre-headless and openjdk-6-jre to apps-
+    external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 16:30:50 -0500
+
+genome-snapshot-deps (2012.07.13-6) lucid; urgency=low
+
+  * [64baf22] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [187e432] added openjdk-6-jre to genome-snapshot-deps-apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 16:10:50 -0500
+
+genome-snapshot-deps (2012.07.13-5) lucid; urgency=low
+
+  * [7cc1538] added libgd-graph-perl (GD::Graph)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 15:40:49 -0500
+
+genome-snapshot-deps (2012.07.13-4) lucid; urgency=low
+
+  * [4fdc313] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [6b7f926] added libset-intspan-perl (Set::IntSpan)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 15:35:51 -0500
+
+genome-snapshot-deps (2012.07.13-3) lucid; urgency=low
+
+  * [2332af9] added libdata-compare-perl (Data::Compare)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 15:30:52 -0500
+
+genome-snapshot-deps (2012.07.13-2) lucid; urgency=low
+
+  * [6e9113e] added genome-snapshot-deps-apps-tgi
+  * [2f95370] added librt-client-rest-perl (RT::Client::REST)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 14:40:53 -0500
+
+genome-snapshot-deps (2012.07.13-1) lucid; urgency=low
+
+  * [5ec8ebd] added Perl modules required to compile the snapshot on a
+    bare lucid box
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Jul 2012 12:10:51 -0500
+
+genome-snapshot-deps (2012.07.12-1) lucid; urgency=low
+
+  * [266e741] Add external pacakge bsmap version 2.6
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 12 Jul 2012 13:45:51 -0500
+
+genome-snapshot-deps (2012.06.29-1) lucid; urgency=low
+
+  * [6953023] Added trinity as an external ap dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Jun 2012 16:46:23 -0500
+
+genome-snapshot-deps (2012.06.28-1) lucid; urgency=low
+
+  * [c3ff86b] Perl deps: set moose and moosex strict con versions to =
+    instead of >=
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 28 Jun 2012 15:20:25 -0500
+
+genome-snapshot-deps (2012.06.27-1) lucid; urgency=low
+
+  * [11a7e38] Add minimum version for polymutt 0.10
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 27 Jun 2012 11:51:22 -0500
+
+genome-snapshot-deps (2012.06.25-2) lucid; urgency=low
+
+  * [f36ae5d] Add libdevel-nytprof-perl and libguard-perl to genome-
+    snapshot-deps-perl.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 25 Jun 2012 17:36:12 -0500
+
+genome-snapshot-deps (2012.06.25-1) lucid; urgency=low
+
+  * [c09fec5] Add polymutt as an external app dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 25 Jun 2012 17:01:11 -0500
+
+genome-snapshot-deps (2012.06.21-2) lucid; urgency=low
+
+  * [3e02124] lower required version for libmoosex-strictconstructor-
+    perl to 0.08-1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Jun 2012 17:06:17 -0500
+
+genome-snapshot-deps (2012.06.21-1) lucid; urgency=low
+
+  * [6109545] lower required version of libmooser-perl to 1.17
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Jun 2012 15:36:10 -0500
+
+genome-snapshot-deps (2012.06.20-1) lucid; urgency=low
+
+  * [82e78fb] Change throwable-perl to lower version; add space to req
+    version for strict constructor
+  * [0e9d239] Add perl deps for GSC classes
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Jun 2012 13:32:49 -0500
+
+genome-snapshot-deps (2012.06.18-7) lucid; urgency=low
+
+  * [d42d4ac] fix misnamed apps-external package
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [e308f05] Merged meta-packages into one source package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 14:11:10 -0500
+
+genome-snapshot-deps (2012.06.18-6) lucid; urgency=low
+
+  * [d42d4ac] fix misnamed apps-external package
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [e308f05] Merged meta-packages into one source package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 14:10:45 -0500
+
+genome-snapshot-deps (2012.06.18-5) lucid; urgency=low
+
+  * [d42d4ac] fix misnamed apps-external package
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [e308f05] Merged meta-packages into one source package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 14:09:21 -0500
+
+genome-snapshot-deps (2012.06.18-4) lucid; urgency=low
+
+  * [e308f05] Merged meta-packages into one source package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 14:08:56 -0500
+
+genome-snapshot-deps (2012.06.18-3) lucid; urgency=low
+
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 13:38:44 -0500
+
+genome-snapshot-deps (2012.06.18-2) lucid; urgency=low
+
+  * [a0d606a] updated README
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 13:31:09 -0500
+
+genome-snapshot-deps (2012.06.18-1) lucid; urgency=low
+
+  * [0862679] added: sra-toolkit to genome-snapshot-apps-external
+  * [97816f4] add dput
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Jun 2012 13:22:02 -0500
+
+genome-snapshot-deps (2012.06.08-1) unstable; urgency=low
+
+  * Merged meta-packages into one source package.
+
+ -- Nathaniel Nutter <nnutter@genome.wustl.edu>  Fri, 08 Jun 2012 12:21:47 -0500
+
+genome-snapshot-deps-perl (2012.05.07-2) unstable; urgency=low
+
+  * added: libdatetime-format-oracle-perl (>= 0.05-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 07 May 2012 10:55:06 -0500
+
+genome-snapshot-deps-perl (2012.05.07-1) unstable; urgency=low
+
+  * added: libdatetime-format-natural-perl (>= 0.91-1)
+  * added: libstatistics-robust-perl (>= 0.01-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 07 May 2012 10:46:11 -0500
+
+genome-snapshot-deps (2012.04.25-1) unstable; urgency=low
+
+  * changed: genome-snapshot-deps-r (>= 2012.04.12-3) to genome-snapshot-deps-r (>= 2012.04.25-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 25 Apr 2012 15:44:00 -0500
+
+genome-snapshot-deps-r (2012.04.25-1) unstable; urgency=low
+
+  * added: r-cran-skat (>= 0.73)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 25 Apr 2012 15:35:31 -0500
+
+genome-snapshot-deps-r (2012.04.12-3) unstable; urgency=low
+
+  * added: r-bioc-biobase (>= 2.10.0-1cran1)
+  * added: r-bioc-lumi (>= 1.6.3-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Thu, 12 Apr 2012 14:56:42 -0500
+
+genome-snapshot-deps-r (2012.04.12-2) unstable; urgency=low
+
+  * added: r-bioc-affy (>= 1.28.0-1cran1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Thu, 12 Apr 2012 13:55:44 -0500
+
+genome-snapshot-deps-r (2012.04.12-1) unstable; urgency=low
+
+  * added: r-cran-h5r (>= 1.2-1)
+  * added: r-cran-pbh5 (>= 2012.04.12-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Thu, 12 Apr 2012 09:48:34 -0500
+
+genome-snapshot-deps-r (2012.04.11-4) unstable; urgency=low
+
+  * changed: r-bioc-genomgraphs (>= 1.10.0-1cran1) to r-bioc-genomegraphs (>= 1.10.0-1cran1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 11 Apr 2012 10:57:02 -0500
+
+genome-snapshot-deps-r (2012.04.11-3) unstable; urgency=low
+
+  * added: r-cran-matrix (>= 1.0-6-1lucid0)
+  * added: r-cran-mgcv (>= 1.7-13-1lucid0)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 11 Apr 2012 10:45:03 -0500
+
+genome-snapshot-deps-r (2012.04.11-2) unstable; urgency=low
+
+  * added: r-cran-cairo (>= 1.4-8-1cran1)
+  * added: r-bioc-genomgraphs (>= 1.10.0-1cran1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 11 Apr 2012 10:32:11 -0500
+
+genome-snapshot-deps-r (2012.04.11-1) unstable; urgency=low
+
+  * added: r-cran-gplots (>=2.8.0-1cran1 )
+  * added: r-cran-bitops (>=1.0-4.1-1cran1)
+  * added: r-cran-catools (>=1.11-1cran1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Wed, 11 Apr 2012 10:24:04 -0500
+
+genome-snapshot-deps (2012.04.10-1) unstable; urgency=low
+
+  * changed: genome-snapshot-deps-r (>= 2012.04.09-5) to genome-snapshot-deps-r (>= 2012.04.10-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Tue, 10 Apr 2012 09:42:38 -0500
+
+genome-snapshot-deps-r (2012.04.10-1) unstable; urgency=low
+
+  * added: r-cran-colorspace (>= 1.0.1-1build1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Tue, 10 Apr 2012 09:41:28 -0500
+
+genome-snapshot-deps (2012.04.09-4) unstable; urgency=low
+
+  * changed: genome-snapshot-deps-r (>= 2012.04.09-3) to genome-snapshot-deps-r (>= 2012.04.09-5)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 19:13:12 -0500
+
+genome-snapshot-deps (2012.04.09-3) unstable; urgency=low
+
+  * added: genome-snapshot-deps-r (>= 2012.04.09-3)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 18:04:24 -0500
+
+genome-snapshot-deps (2012.04.09-2) unstable; urgency=low
+
+  * changed: genome-snapshot-deps-perl (>= 2012.04.09-1) to genome-snapshot-deps-perl (>= 2012.04.09-3)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 17:45:57 -0500
+
+genome-snapshot-deps (2012.04.09-1) unstable; urgency=low
+
+  * changed: genome-snapshot-deps-perl to genome-snapshot-deps-perl (>= 2012.04.09-1)
+  * changed: Description: This meta-package installs all dependencies of t to Description: This meta-package installs all dependencies of t
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 10:47:06 -0500
+
+genome-snapshot-deps-perl (2012.04.09-3) unstable; urgency=low
+
+  * Test rebuild.  No changes.
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 17:43:49 -0500
+
+genome-snapshot-deps-perl (2012.04.09-2) unstable; urgency=low
+
+  * Packaging fixes: removed "provides genome"
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 17:40:26 -0500
+
+genome-snapshot-deps-perl (2012.04.09-1) unstable; urgency=low
+
+  * Added version numbers to all of the packages.
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 09:42:44 -0500
+
+genome-snapshot-deps-r (2012.04.09-5) unstable; urgency=low
+
+  * added: r-cran-boot	(>= 1.2.43-1lucid0)
+  * added: r-cran-xtable (>= 1.5.5-1)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 19:09:46 -0500
+
+genome-snapshot-deps-r (2012.04.09-4) unstable; urgency=low
+
+  * changed: r-bioc-dnacopy to r-bioc-dnacopy (>= 1.24.0-1cran1)
+  * changed: r-bioc-gcrma to r-bioc-gcrma (>= 2.22.0-1cran1)
+  * changed: r-bioc-genefilter to r-bioc-genefilter (>= 1.32.0-1cran1)
+  * changed: r-bioc-methylumi to r-bioc-methylumi (>= 1.6.1-1cran1)
+  * changed: r-bioc-preprocesscore to r-bioc-preprocesscore (>= 1.12.0-1cran1)
+  * changed: r-cran-domc to r-cran-domc (>= 1.2.0-2)
+  * changed: r-cran-foreach to r-cran-foreach (>= 1.3.0-2)
+  * changed: r-cran-fpc to r-cran-fpc (>= 2.0-3)
+  * changed: r-cran-ggplot2 to r-cran-ggplot2 (>= 0.8.9-1cran1)
+  * changed: r-cran-mixtools to r-cran-mixtools (>= 0.4.5-1)
+  * changed: r-cran-multicore to r-cran-multicore (>= 0.1-3-2)
+  * changed: r-cran-plotrix to r-cran-plotrix (>= 3.1-1cran1)
+  * changed: r-cran-rcolorbrewer to r-cran-rcolorbrewer (>= 1.0-2-2)
+  * changed: r-cran-scatterplot3d to r-cran-scatterplot3d (>= 0.3-31-1cran1)
+  * added: r-base-core (>= 2.15.0-1lucid0)
+  * added: r-cran-proto (>= 0.3-9.2)
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 18:52:55 -0500
+
+genome-snapshot-deps-r (2012.04.09-3) unstable; urgency=low
+
+  * Test rebuild. 
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 18:00:11 -0500
+
+genome-snapshot-deps-r (2012.04.09-2) unstable; urgency=low
+
+  * Test rebuild. 
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 17:57:33 -0500
+
+genome-snapshot-deps-r (2012.04.09-1) unstable; urgency=low
+  * Initial debian repo.
+  * added: r-bioc-dnacopy
+  * added: r-bioc-gcrma
+  * added: r-bioc-genefilter
+  * added: r-bioc-methylumi
+  * added: r-bioc-preprocesscore
+  * added: r-cran-domc
+  * added: r-cran-foreach
+  * added: r-cran-fpc
+  * added: r-cran-ggplot2
+  * added: r-cran-mixtools
+  * added: r-cran-multicore
+  * added: r-cran-plotrix
+  * added: r-cran-rcolorbrewer
+  * added: r-cran-scatterplot3d
+
+ -- The Genome Institute <gmt@genome.wustl.edu>  Mon, 09 Apr 2012 16:44:12 -0500
+
+genome-snapshot-deps (2012.03.29-1) unstable; urgency=low
+
+  * Initial package to represent all requirements to run the genome.git
+    snapshot on a freshly installed Linux machine.
+
+ -- Genome Institute <gmt@genome.wustl.edu>  Thu, 29 Mar 2012 12:35:00 -0500
+
+genome-snapshot-deps-perl (2012.03.29-1) unstable; urgency=low
+
+  * Initial package to represent all requirements to run the genome.git
+    snapshot on a freshly installed Linux machine.
+
+ -- Genome Institute <gmt@genome.wustl.edu>  Thu, 29 Mar 2012 12:35:00 -0500
+
+genome-snapshot-deps-r (2012.03.29-1) unstable; urgency=low
+
+  * Initial package to represent all requirements to run the genome.git
+    snapshot on a freshly installed Linux machine.
+
+ -- Genome Institute <gmt@genome.wustl.edu>  Thu, 29 Mar 2012 12:35:00 -0500

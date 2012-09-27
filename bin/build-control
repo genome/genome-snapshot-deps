@@ -23,7 +23,7 @@ case $DISTRO in
 esac
 echo "Standards-Version: 3.8.3"
 echo ""
-for FILE in $(cd $DISTRO && ls genome-snapshot-deps-*.depends); do
+for FILE in $(cd $DISTRO > /dev/null && ls genome-snapshot-deps-*.depends); do
     PKG=${FILE/.depends}
     echo "Package: $PKG"
     echo "Architecture: all"

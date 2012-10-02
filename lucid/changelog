@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.02-2) lucid; urgency=low
+
+  * [1a9a65b] add Hmisc R package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 02 Oct 2012 16:32:51 -0500
+
 genome-snapshot-deps (2012.10.02-1) lucid; urgency=low
 
   * [358f32d] add ttest perl dependency

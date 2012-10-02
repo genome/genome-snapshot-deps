@@ -1,4 +1,4 @@
-genome-snapshot-deps (2012.09.20-2) lucid; urgency=low
+genome-snapshot-deps (2012.09.20-2~Ubuntu~precise) lucid; urgency=low
 
   * [8d69322] update pairoscope version
 

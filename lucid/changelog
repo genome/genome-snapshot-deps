@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.05-1) lucid; urgency=low
+
+  * [2c29eb7] add rasmol package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Oct 2012 15:58:50 -0500
+
 genome-snapshot-deps (2012.10.02-3) lucid; urgency=low
 
   * [c7bc69d] change version of hmisc

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.15-1) lucid; urgency=low
+
+  * [74d3d08] bump joinx1.6 version to 1.6.9
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 15 Oct 2012 14:58:51 -0500
+
 genome-snapshot-deps (2012.10.08-1) lucid; urgency=low
 
   * [036a299] Add Net::Statsd to perl deps

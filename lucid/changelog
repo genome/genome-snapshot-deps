@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.17-1) lucid; urgency=low
+
+  * [3ba4f46] Add new version of allpaths
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 17 Oct 2012 14:28:51 -0500
+
 genome-snapshot-deps (2012.10.15-3) lucid; urgency=low
 
   * [84925b5] bump joinx1.6 version to 1.6.11

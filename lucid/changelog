@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.10.25-1) lucid; urgency=low
+
+  * [c057fb2] add libpdl-stats-perl to genome-snapshots-deps-
+    perl.depends
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 25 Oct 2012 15:48:52 -0500
+
 genome-snapshot-deps (2012.10.18-1) lucid; urgency=low
 
   * [d5ac3ac] added Filesys::Df

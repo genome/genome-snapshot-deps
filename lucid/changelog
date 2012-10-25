@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.25-2) lucid; urgency=low
+
+  * [152623c] bump joinx1.6 version to 1.6.12
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 25 Oct 2012 17:42:51 -0500
+
 genome-snapshot-deps (2012.10.25-1) lucid; urgency=low
 
   * [c057fb2] add libpdl-stats-perl to genome-snapshots-deps-

@@ -1,3 +1,10 @@
+genome-snapshot-deps (2012.10.26-1) lucid; urgency=low
+
+  * [c9661e4] update libdbd-pg-perl for version compatible with postgres
+    9.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 26 Oct 2012 13:37:51 -0500
+
 genome-snapshot-deps (2012.10.25-2) lucid; urgency=low
 
   * [152623c] bump joinx1.6 version to 1.6.12

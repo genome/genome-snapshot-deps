@@ -1,3 +1,12 @@
+genome-snapshot-deps (2012.10.26-3) lucid; urgency=low
+
+  * [14cf5ef] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [2b5bbdf] Merge branch 'master' of git:/srv/git/genome-snapshot-deps
+  * [090a716] update to newest inhouse libdbd-pg-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 26 Oct 2012 14:03:31 -0500
+
 genome-snapshot-deps (2012.10.26-2) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

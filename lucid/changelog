@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.10.26-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 26 Oct 2012 14:01:53 -0500
+
 genome-snapshot-deps (2012.10.26-1) lucid; urgency=low
 
   * [c9661e4] update libdbd-pg-perl for version compatible with postgres

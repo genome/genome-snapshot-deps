@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.11.20-1) lucid; urgency=low
+
+  * [ea10dae] Change flexbar version to 229-2 [correct libtbb2 version]
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 20 Nov 2012 13:23:22 -0600
+
 genome-snapshot-deps (2012.11.19-1) lucid; urgency=low
 
   * [b20d320] Add flexbar229 [nee far] dep to apps-external

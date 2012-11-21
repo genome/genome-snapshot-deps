@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.11.20-2) lucid; urgency=low
+
+  * [4e4f343] added libtest-file-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 20 Nov 2012 19:43:21 -0600
+
 genome-snapshot-deps (2012.11.20-1) lucid; urgency=low
 
   * [ea10dae] Change flexbar version to 229-2 [correct libtbb2 version]

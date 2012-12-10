@@ -59,9 +59,6 @@ for FILE in $(cd $DISTRO > /dev/null && ls genome-snapshot-deps-*.depends); do
         genome-snapshot-deps-workflow)
             echo "Description: This meta-package installs the Workflow dependencies. Eventually this should just be replaced with libworkflow-perl."
             ;;
-        genome-snapshot-deps-trans-abyss)
-            echo "Description: This meta-package installs the trans-abyss (/gsc/pkg/bio) dependencies."
-            ;;
         genome-snapshot-deps-refcov)
             echo "Description: This meta-package installs the GMT::RefCov dependencies. Eventually this should just be replaced with genome-refcov."
             ;;

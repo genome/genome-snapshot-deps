@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.12.12-1) lucid; urgency=low
+
+  * [d727d42] add joinx1.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 12 Dec 2012 14:57:09 -0600
+
 genome-snapshot-deps (2012.12.05-1) lucid; urgency=low
 
   * [2c70bc7] added posgresql-client-8.4 since some code runs psql

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2012.12.22-1) lucid; urgency=low
+
+  * [a63081a] Added TestTracker.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 22 Dec 2012 04:17:09 -0600
+
 genome-snapshot-deps (2012.12.12-1) lucid; urgency=low
 
   * [d727d42] add joinx1.7

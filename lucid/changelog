@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.03-1) lucid; urgency=low
+
+  * [cacc094] Added dep for log4perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Jan 2013 14:59:12 -0600
+
 genome-snapshot-deps (2013.01.02-1) lucid; urgency=low
 
   * [9a49f65] Update TestTracker to 0.006-1.

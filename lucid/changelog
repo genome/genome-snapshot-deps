@@ -1,3 +1,11 @@
+genome-snapshot-deps (2013.01.03-2) lucid; urgency=low
+
+  * [6fc5cbf] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [3bf368d] revert previous
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Jan 2013 15:42:58 -0600
+
 genome-snapshot-deps (2013.01.03-1) lucid; urgency=low
 
   * [cacc094] Added dep for log4perl

@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.01.08-1) lucid; urgency=low
+
+  * [1fcab90] Add IPC::System::Simple so we can `use autodie
+    qw(:system)`.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 08 Jan 2013 14:15:44 -0600
+
 genome-snapshot-deps (2013.01.03-2) lucid; urgency=low
 
   * [6fc5cbf] Merge branch 'master' of ssh://git/srv/git/genome-

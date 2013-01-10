@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.10-1) lucid; urgency=low
+
+  * [52d22b4] Update minimum version of TestTracker to 0.008-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 10 Jan 2013 13:58:34 -0600
+
 genome-snapshot-deps (2013.01.08-1) lucid; urgency=low
 
   * [1fcab90] Add IPC::System::Simple so we can `use autodie

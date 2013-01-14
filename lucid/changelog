@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.14-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 14 Jan 2013 16:05:26 -0600
+
 genome-snapshot-deps (2013.01.14-1) lucid; urgency=low
 
   * [88dcc35] Add strelka packages

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.14-1) lucid; urgency=low
+
+  * [88dcc35] Add strelka packages
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 14 Jan 2013 14:25:03 -0600
+
 genome-snapshot-deps (2013.01.10-1) lucid; urgency=low
 
   * [52d22b4] Update minimum version of TestTracker to 0.008-1.

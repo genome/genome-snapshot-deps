@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.25-1) lucid; urgency=low
+
+  * [5e87a67] Added pindel0.2.4t
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 25 Jan 2013 17:09:03 -0600
+
 genome-snapshot-deps (2013.01.22-1) lucid; urgency=low
 
   * [3921f14] Updated required version of TestTracker to 0.012-1.

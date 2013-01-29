@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.29-2) lucid; urgency=low
+
+  * [c774f98] Add tophat2.0.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 29 Jan 2013 16:29:02 -0600
+
 genome-snapshot-deps (2013.01.29-1) lucid; urgency=low
 
   * [5f70777] Add new bowtie versions.

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.01.29-1) lucid; urgency=low
+
+  * [5f70777] Add new bowtie versions.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 29 Jan 2013 10:29:04 -0600
+
 genome-snapshot-deps (2013.01.25-1) lucid; urgency=low
 
   * [5e87a67] Added pindel0.2.4t

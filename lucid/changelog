@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.11-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 11 Feb 2013 17:34:17 -0600
+
 genome-snapshot-deps (2013.02.11-1) lucid; urgency=low
 
   * [c33ca1a] Add r-bioc-geneplotter to R deps

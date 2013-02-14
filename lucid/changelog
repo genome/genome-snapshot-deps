@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.14-1) lucid; urgency=low
+
+  * [8a1ded4] Added BSD::Resource to Perl requirments.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Feb 2013 11:06:56 -0600
+
 genome-snapshot-deps (2013.02.13-1) lucid; urgency=low
 
   * [01333a1] Updated required version of TestTracker to 0.013-1.

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.14-3) lucid; urgency=low
+
+  * [6c77228] Revert "Bump r-cran-ggplot2 to 0.9.3-1cran1"
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Feb 2013 16:58:55 -0600
+
 genome-snapshot-deps (2013.02.14-2) lucid; urgency=low
 
   * [6d43122] Bump r-cran-ggplot2 to 0.9.3-1cran1

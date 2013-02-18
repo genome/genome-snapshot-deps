@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.18-1) lucid; urgency=low
+
+  * [a790393] CummeRbund has a new version, and a new name
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Feb 2013 09:58:56 -0600
+
 genome-snapshot-deps (2013.02.14-3) lucid; urgency=low
 
   * [6c77228] Revert "Bump r-cran-ggplot2 to 0.9.3-1cran1"

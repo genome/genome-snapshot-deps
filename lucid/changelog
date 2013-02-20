@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.20-2) lucid; urgency=low
+
+  * [c228386] Updated polymutt0.13 to package version 2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Feb 2013 13:46:56 -0600
+
 genome-snapshot-deps (2013.02.20-1) lucid; urgency=low
 
   * [766f7fd] Updated required version of TestTracker to 0.014-1.

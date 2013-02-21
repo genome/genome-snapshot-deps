@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.02.21-1) lucid; urgency=low
+
+  * [3350f65] Added chimerascan-vrl0.4.6 to tgi.depends
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Feb 2013 12:18:57 -0600
+
 genome-snapshot-deps (2013.02.20-2) lucid; urgency=low
 
   * [c228386] Updated polymutt0.13 to package version 2

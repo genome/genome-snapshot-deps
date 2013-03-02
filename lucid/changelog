@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.01-1) lucid; urgency=low
+
+  * [f246a36] Updated required version of TestTracker to 0.017-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 01 Mar 2013 21:46:55 -0600
+
 genome-snapshot-deps (2013.02.28-1) lucid; urgency=low
 
   * [be0fd25] Add newest tophat and bowtie.

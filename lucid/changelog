@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.06-1) lucid; urgency=low
+
+  * [5c09496] Add r dependencies of alexa-seq pipeline
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 06 Mar 2013 12:40:22 -0600
+
 genome-snapshot-deps (2013.03.04-1) lucid; urgency=low
 
   * [2cfc242] Updated required version of TestTracker to 0.019-1.

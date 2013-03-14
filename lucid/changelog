@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.14-2) lucid; urgency=low
+
+  * [61d778f] Add fuseext2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Mar 2013 13:22:38 -0500
+
 genome-snapshot-deps (2013.03.14-1) lucid; urgency=low
 
   * [0010cee] Add fuseext

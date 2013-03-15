@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.15-1) lucid; urgency=low
+
+  * [4639caf] Updated required version of TestTracker to 0.026-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 15 Mar 2013 13:14:42 -0500
+
 genome-snapshot-deps (2013.03.14-3) lucid; urgency=low
 
   * [c88233a] Remove duplicate fuseext2.

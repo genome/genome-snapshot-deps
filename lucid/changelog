@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.16-1) lucid; urgency=low
+
+  * [f73d3ec] Updated required version of TestTracker to 0.028-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 16 Mar 2013 00:38:44 -0500
+
 genome-snapshot-deps (2013.03.15-2) lucid; urgency=low
 
   * [8be0be5] Updated required version of TestTracker to 0.027-1.

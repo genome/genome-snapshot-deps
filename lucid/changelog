@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.19-1) lucid; urgency=low
+
+  * [4b2cec0] Add picard 1.85 package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Mar 2013 12:26:39 -0500
+
 genome-snapshot-deps (2013.03.18-1) lucid; urgency=low
 
   * [f7310fa] Updated required version of TestTracker to 0.029-1.

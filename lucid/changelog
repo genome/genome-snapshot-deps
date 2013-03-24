@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.24-1) lucid; urgency=low
+
+  * [1e29928] Add Devel::Cover
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sun, 24 Mar 2013 09:39:57 -0500
+
 genome-snapshot-deps (2013.03.19-2) lucid; urgency=low
 
   * [6263c0d] Update to next package revision to get dependency fix.

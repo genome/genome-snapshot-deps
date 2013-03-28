@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.28-1) lucid; urgency=low
+
+  * [a0be6f2] add flow python dependencies for lucid
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 28 Mar 2013 17:14:43 -0500
+
 genome-snapshot-deps (2013.03.24-1) lucid; urgency=low
 
   * [1e29928] Add Devel::Cover

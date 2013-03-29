@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.03.29-1) lucid; urgency=low
+
+  * [c5f2219] catch case when package has not been added
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Mar 2013 09:58:02 -0500
+
 genome-snapshot-deps (2013.03.28-1) lucid; urgency=low
 
   * [a0be6f2] add flow python dependencies for lucid

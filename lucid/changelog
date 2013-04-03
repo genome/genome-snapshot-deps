@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.03-1) lucid; urgency=low
+
+  * [1eb3c71] add flow0 dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 03 Apr 2013 17:46:44 -0500
+
 genome-snapshot-deps (2013.03.31-1) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

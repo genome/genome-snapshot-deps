@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.04-4) lucid; urgency=low
+
+  * [6c03856] increase flow0 version requirement to 0.1.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 20:32:44 -0500
+
 genome-snapshot-deps (2013.04.04-3) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

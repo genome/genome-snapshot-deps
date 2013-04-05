@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.04-5) lucid; urgency=low
+
+  * [f9d8c5f] Updated required version of TestTracker to 0.031-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 22:32:42 -0500
+
 genome-snapshot-deps (2013.04.04-4) lucid; urgency=low
 
   * [6c03856] increase flow0 version requirement to 0.1.0

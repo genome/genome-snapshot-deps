@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.05-3) lucid; urgency=low
+
+  * [4311f78] bump flow to 0.1.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 10:56:42 -0500
+
 genome-snapshot-deps (2013.04.05-2) lucid; urgency=low
 
   * [d50d132] bump flow to 0.1.3

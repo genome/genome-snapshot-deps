@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.09-1) lucid; urgency=low
+
+  * [7cebeb9] Add Set::IntervalTree package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 09 Apr 2013 12:31:21 -0500
+
 genome-snapshot-deps (2013.04.08-1) lucid; urgency=low
 
   * [9632479] bump flow version to 0.1.10

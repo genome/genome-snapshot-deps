@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.11-2) lucid; urgency=low
+
+  * [4c3f6f7] Switch to bwa0.7.3a build 2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 11:59:10 -0500
+
 genome-snapshot-deps (2013.04.11-1) lucid; urgency=low
 
   * [37b3773] added bwa 0.7.3a

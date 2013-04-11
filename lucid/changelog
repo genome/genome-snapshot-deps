@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.11-3) lucid; urgency=low
+
+  * [d0e7393] temporarily remove bwa0.7.3a dep, since currently broken
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 16:24:05 -0500
+
 genome-snapshot-deps (2013.04.11-2) lucid; urgency=low
 
   * [4c3f6f7] Switch to bwa0.7.3a build 2.

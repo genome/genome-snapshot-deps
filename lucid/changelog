@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.04.22-1) lucid; urgency=low
+
+  * [01b9bf8] bump bam-readcount version to 0.4.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 22 Apr 2013 13:29:43 -0500
+
 genome-snapshot-deps (2013.04.19-1) lucid; urgency=low
 
   * [119492f] Updated required version of TestTracker to 0.032-1.

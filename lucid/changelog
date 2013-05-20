@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.20-1) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 20 May 2013 12:06:55 -0500
+
 genome-snapshot-deps (2013.05.16-1) lucid; urgency=low
 
   * [c8dfe14] Rollback strelka-0.4.10.1-3 requirement to -2

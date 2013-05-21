@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.21-1) lucid; urgency=low
+
+  * [f33e8ce] Add dep for statmod
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 21 May 2013 09:29:58 -0500
+
 genome-snapshot-deps (2013.05.20-3) lucid; urgency=low
 
   * [6146292] Bumped test tracker to 0.034

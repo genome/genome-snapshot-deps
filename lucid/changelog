@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.21-3) lucid; urgency=low
+
+  * [108abb6] sorted lists
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 21 May 2013 11:11:58 -0500
+
 genome-snapshot-deps (2013.05.21-2) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

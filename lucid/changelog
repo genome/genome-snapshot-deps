@@ -1,3 +1,576 @@
+genome-snapshot-deps (2013.05.21-3) lucid; urgency=low
+
+  * [108abb6] sorted lists
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 21 May 2013 11:11:58 -0500
+
+genome-snapshot-deps (2013.05.21-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 21 May 2013 10:14:43 -0500
+
+genome-snapshot-deps (2013.05.21-1) lucid; urgency=low
+
+  * [f33e8ce] Add dep for statmod
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 21 May 2013 09:29:58 -0500
+
+genome-snapshot-deps (2013.05.20-3) lucid; urgency=low
+
+  * [6146292] Bumped test tracker to 0.034
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 20 May 2013 17:29:58 -0500
+
+genome-snapshot-deps (2013.05.20-2) lucid; urgency=low
+
+  * [54b9e85] Require strelka-0.4.10.1-3 (second try)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 20 May 2013 15:47:59 -0500
+
+genome-snapshot-deps (2013.05.20-1) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 20 May 2013 12:06:55 -0500
+
+genome-snapshot-deps (2013.05.16-1) lucid; urgency=low
+
+  * [c8dfe14] Rollback strelka-0.4.10.1-3 requirement to -2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 16 May 2013 16:17:59 -0500
+
+genome-snapshot-deps (2013.05.15-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 15 May 2013 14:32:04 -0500
+
+genome-snapshot-deps (2013.05.15-1) lucid; urgency=low
+
+  * [beaa635] Require strelka-0.4.10.1-3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 15 May 2013 14:29:57 -0500
+
+genome-snapshot-deps (2013.05.14-3) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 14 May 2013 15:39:59 -0500
+
+genome-snapshot-deps (2013.05.14-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 14 May 2013 15:16:56 -0500
+
+genome-snapshot-deps (2013.05.14-1) lucid; urgency=low
+
+  * [e6c940b] Require strelka-0.4.10.1-2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 14 May 2013 14:50:01 -0500
+
+genome-snapshot-deps (2013.04.24-2) lucid; urgency=low
+
+  * [8c18ccf] Updated required version of sra-toolkit to 2.3.1-1~beta2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 24 Apr 2013 17:22:58 -0500
+
+genome-snapshot-deps (2013.04.24-1) lucid; urgency=low
+
+  * [dfd358d] Add gatk
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 24 Apr 2013 17:00:58 -0500
+
+genome-snapshot-deps (2013.04.22-3) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 22 Apr 2013 16:51:52 -0500
+
+genome-snapshot-deps (2013.04.22-2) lucid; urgency=low
+
+  * [8089221] bump flow version to 0.2.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 22 Apr 2013 13:34:32 -0500
+
+genome-snapshot-deps (2013.04.22-1) lucid; urgency=low
+
+  * [01b9bf8] bump bam-readcount version to 0.4.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 22 Apr 2013 13:29:43 -0500
+
+genome-snapshot-deps (2013.04.19-1) lucid; urgency=low
+
+  * [119492f] Updated required version of TestTracker to 0.032-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 19 Apr 2013 15:10:37 -0500
+
+genome-snapshot-deps (2013.04.12-1) lucid; urgency=low
+
+  * [68d3649] added bwa0.7.3a (again)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 12 Apr 2013 14:09:16 -0500
+
+genome-snapshot-deps (2013.04.11-4) lucid; urgency=low
+
+  * [9b9d61d] bump flow version to 0.1.13
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 20:21:16 -0500
+
+genome-snapshot-deps (2013.04.11-3) lucid; urgency=low
+
+  * [d0e7393] temporarily remove bwa0.7.3a dep, since currently broken
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 16:24:05 -0500
+
+genome-snapshot-deps (2013.04.11-2) lucid; urgency=low
+
+  * [4c3f6f7] Switch to bwa0.7.3a build 2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 11:59:10 -0500
+
+genome-snapshot-deps (2013.04.11-1) lucid; urgency=low
+
+  * [37b3773] added bwa 0.7.3a
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Apr 2013 10:11:14 -0500
+
+genome-snapshot-deps (2013.04.09-1) lucid; urgency=low
+
+  * [7cebeb9] Add Set::IntervalTree package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 09 Apr 2013 12:31:21 -0500
+
+genome-snapshot-deps (2013.04.08-1) lucid; urgency=low
+
+  * [9632479] bump flow version to 0.1.10
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 08 Apr 2013 13:49:47 -0500
+
+genome-snapshot-deps (2013.04.06-1) lucid; urgency=low
+
+  * [f3eb3c1] bump flow version to 0.1.9
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 06 Apr 2013 10:10:44 -0500
+
+genome-snapshot-deps (2013.04.05-6) lucid; urgency=low
+
+  * [77dc973] bump flow version to 0.1.8
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 16:41:00 -0500
+
+genome-snapshot-deps (2013.04.05-5) lucid; urgency=low
+
+  * [82d4f67] bump flow version to 0.1.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 15:09:09 -0500
+
+genome-snapshot-deps (2013.04.05-4) lucid; urgency=low
+
+  * [2251062] bump flow version to 0.1.6
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 14:42:16 -0500
+
+genome-snapshot-deps (2013.04.05-3) lucid; urgency=low
+
+  * [4311f78] bump flow to 0.1.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 10:56:42 -0500
+
+genome-snapshot-deps (2013.04.05-2) lucid; urgency=low
+
+  * [d50d132] bump flow to 0.1.3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 09:54:41 -0500
+
+genome-snapshot-deps (2013.04.05-1) lucid; urgency=low
+
+  * [151c884] bump flow to 0.1.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Apr 2013 00:19:12 -0500
+
+genome-snapshot-deps (2013.04.04-5) lucid; urgency=low
+
+  * [f9d8c5f] Updated required version of TestTracker to 0.031-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 22:32:42 -0500
+
+genome-snapshot-deps (2013.04.04-4) lucid; urgency=low
+
+  * [6c03856] increase flow0 version requirement to 0.1.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 20:32:44 -0500
+
+genome-snapshot-deps (2013.04.04-3) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 08:32:39 -0500
+
+genome-snapshot-deps (2013.04.04-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 08:29:04 -0500
+
+genome-snapshot-deps (2013.04.04-1) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 04 Apr 2013 08:21:51 -0500
+
+genome-snapshot-deps (2013.04.03-1) lucid; urgency=low
+
+  * [1eb3c71] add flow0 dep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 03 Apr 2013 17:46:44 -0500
+
+genome-snapshot-deps (2013.03.31-1) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sun, 31 Mar 2013 12:06:14 -0500
+
+genome-snapshot-deps (2013.03.29-3) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Mar 2013 14:47:56 -0500
+
+genome-snapshot-deps (2013.03.29-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Mar 2013 14:04:38 -0500
+
+genome-snapshot-deps (2013.03.29-1) lucid; urgency=low
+
+  * [c5f2219] catch case when package has not been added
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 29 Mar 2013 09:58:02 -0500
+
+genome-snapshot-deps (2013.03.28-1) lucid; urgency=low
+
+  * [a0be6f2] add flow python dependencies for lucid
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 28 Mar 2013 17:14:43 -0500
+
+genome-snapshot-deps (2013.03.24-1) lucid; urgency=low
+
+  * [1e29928] Add Devel::Cover
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sun, 24 Mar 2013 09:39:57 -0500
+
+genome-snapshot-deps (2013.03.19-2) lucid; urgency=low
+
+  * [6263c0d] Update to next package revision to get dependency fix.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Mar 2013 16:06:40 -0500
+
+genome-snapshot-deps (2013.03.19-1) lucid; urgency=low
+
+  * [4b2cec0] Add picard 1.85 package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Mar 2013 12:26:39 -0500
+
+genome-snapshot-deps (2013.03.18-1) lucid; urgency=low
+
+  * [f7310fa] Updated required version of TestTracker to 0.029-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Mar 2013 10:04:39 -0500
+
+genome-snapshot-deps (2013.03.16-1) lucid; urgency=low
+
+  * [f73d3ec] Updated required version of TestTracker to 0.028-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 16 Mar 2013 00:38:44 -0500
+
+genome-snapshot-deps (2013.03.15-2) lucid; urgency=low
+
+  * [8be0be5] Updated required version of TestTracker to 0.027-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 15 Mar 2013 15:40:08 -0500
+
+genome-snapshot-deps (2013.03.15-1) lucid; urgency=low
+
+  * [4639caf] Updated required version of TestTracker to 0.026-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 15 Mar 2013 13:14:42 -0500
+
+genome-snapshot-deps (2013.03.14-3) lucid; urgency=low
+
+  * [c88233a] Remove duplicate fuseext2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Mar 2013 13:34:39 -0500
+
+genome-snapshot-deps (2013.03.14-2) lucid; urgency=low
+
+  * [61d778f] Add fuseext2.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Mar 2013 13:22:38 -0500
+
+genome-snapshot-deps (2013.03.14-1) lucid; urgency=low
+
+  * [0010cee] Add fuseext
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Mar 2013 12:44:42 -0500
+
+genome-snapshot-deps (2013.03.13-2) lucid; urgency=low
+
+  * [adf318d] Updated required version of TestTracker to 0.022-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 13 Mar 2013 13:00:39 -0500
+
+genome-snapshot-deps (2013.03.13-1) lucid; urgency=low
+
+  * [e39663e] Updated required version of TestTracker to 0.021-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 13 Mar 2013 09:34:39 -0500
+
+genome-snapshot-deps (2013.03.12-1) lucid; urgency=low
+
+  * [ed70f99] add bwa0.7.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 12 Mar 2013 10:02:38 -0500
+
+genome-snapshot-deps (2013.03.11-1) lucid; urgency=low
+
+  * [e328638] Updated required version of TestTracker to 0.020-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 11 Mar 2013 14:18:39 -0500
+
+genome-snapshot-deps (2013.03.06-1) lucid; urgency=low
+
+  * [5c09496] Add r dependencies of alexa-seq pipeline
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 06 Mar 2013 12:40:22 -0600
+
+genome-snapshot-deps (2013.03.04-1) lucid; urgency=low
+
+  * [2cfc242] Updated required version of TestTracker to 0.019-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 04 Mar 2013 11:16:57 -0600
+
+genome-snapshot-deps (2013.03.01-1) lucid; urgency=low
+
+  * [f246a36] Updated required version of TestTracker to 0.017-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 01 Mar 2013 21:46:55 -0600
+
+genome-snapshot-deps (2013.02.28-1) lucid; urgency=low
+
+  * [be0fd25] Add newest tophat and bowtie.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 28 Feb 2013 16:36:56 -0600
+
+genome-snapshot-deps (2013.02.21-1) lucid; urgency=low
+
+  * [3350f65] Added chimerascan-vrl0.4.6 to tgi.depends
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Feb 2013 12:18:57 -0600
+
+genome-snapshot-deps (2013.02.20-2) lucid; urgency=low
+
+  * [c228386] Updated polymutt0.13 to package version 2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Feb 2013 13:46:56 -0600
+
+genome-snapshot-deps (2013.02.20-1) lucid; urgency=low
+
+  * [766f7fd] Updated required version of TestTracker to 0.014-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Feb 2013 09:58:57 -0600
+
+genome-snapshot-deps (2013.02.19-2) lucid; urgency=low
+
+  * [a1cae67] fix bwa 0.6.2 version number
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Feb 2013 15:24:57 -0600
+
+genome-snapshot-deps (2013.02.19-1) lucid; urgency=low
+
+  * [1e60ea5] add bwa6.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Feb 2013 14:48:57 -0600
+
+genome-snapshot-deps (2013.02.18-1) lucid; urgency=low
+
+  * [a790393] CummeRbund has a new version, and a new name
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 18 Feb 2013 09:58:56 -0600
+
+genome-snapshot-deps (2013.02.14-3) lucid; urgency=low
+
+  * [6c77228] Revert "Bump r-cran-ggplot2 to 0.9.3-1cran1"
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Feb 2013 16:58:55 -0600
+
+genome-snapshot-deps (2013.02.14-2) lucid; urgency=low
+
+  * [6d43122] Bump r-cran-ggplot2 to 0.9.3-1cran1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Feb 2013 13:24:55 -0600
+
+genome-snapshot-deps (2013.02.14-1) lucid; urgency=low
+
+  * [8a1ded4] Added BSD::Resource to Perl requirments.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 14 Feb 2013 11:06:56 -0600
+
+genome-snapshot-deps (2013.02.13-1) lucid; urgency=low
+
+  * [01333a1] Updated required version of TestTracker to 0.013-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 13 Feb 2013 16:54:55 -0600
+
+genome-snapshot-deps (2013.02.12-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 12 Feb 2013 14:06:58 -0600
+
+genome-snapshot-deps (2013.02.12-1) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 12 Feb 2013 14:03:04 -0600
+
+genome-snapshot-deps (2013.02.11-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 11 Feb 2013 17:34:17 -0600
+
+genome-snapshot-deps (2013.02.11-1) lucid; urgency=low
+
+  * [c33ca1a] Add r-bioc-geneplotter to R deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 11 Feb 2013 17:13:47 -0600
+
+genome-snapshot-deps (2013.02.07-1) lucid; urgency=low
+
+  * [32ba0c7] add polymutt 0.13
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 07 Feb 2013 17:05:09 -0600
+
+genome-snapshot-deps (2013.02.04-1) lucid; urgency=low
+
+  * [0909192] Add r-cran-copycat
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 04 Feb 2013 10:47:03 -0600
+
+genome-snapshot-deps (2013.01.29-2) lucid; urgency=low
+
+  * [c774f98] Add tophat2.0.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 29 Jan 2013 16:29:02 -0600
+
+genome-snapshot-deps (2013.01.29-1) lucid; urgency=low
+
+  * [5f70777] Add new bowtie versions.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 29 Jan 2013 10:29:04 -0600
+
+genome-snapshot-deps (2013.01.25-1) lucid; urgency=low
+
+  * [5e87a67] Added pindel0.2.4t
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 25 Jan 2013 17:09:03 -0600
+
+genome-snapshot-deps (2013.01.22-1) lucid; urgency=low
+
+  * [3921f14] Updated required version of TestTracker to 0.012-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 22 Jan 2013 17:02:17 -0600
+
+genome-snapshot-deps (2013.01.18-1) lucid; urgency=low
+
+  * [d40c674] Updated required version of TestTracker to 0.011-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 18 Jan 2013 13:57:02 -0600
+
+genome-snapshot-deps (2013.01.17-2) lucid; urgency=low
+
+  * [00f24c2] Updated required version of TestTracker to 0.010-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 17 Jan 2013 17:02:42 -0600
+
+genome-snapshot-deps (2013.01.17-1) lucid; urgency=low
+
+  * [5312711] Updated required version of TestTracker to 0.009-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 17 Jan 2013 09:03:02 -0600
+
+genome-snapshot-deps (2013.01.14-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 14 Jan 2013 16:05:26 -0600
+
+genome-snapshot-deps (2013.01.14-1) lucid; urgency=low
+
+  * [88dcc35] Add strelka packages
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 14 Jan 2013 14:25:03 -0600
+
+genome-snapshot-deps (2013.01.10-1) lucid; urgency=low
+
+  * [52d22b4] Update minimum version of TestTracker to 0.008-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 10 Jan 2013 13:58:34 -0600
+
+genome-snapshot-deps (2013.01.08-1) lucid; urgency=low
+
+  * [1fcab90] Add IPC::System::Simple so we can `use autodie
+    qw(:system)`.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 08 Jan 2013 14:15:44 -0600
+
+genome-snapshot-deps (2013.01.03-2) lucid; urgency=low
+
+  * [6fc5cbf] Merge branch 'master' of ssh://git/srv/git/genome-
+    snapshot-deps
+  * [3bf368d] revert previous
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Jan 2013 15:42:58 -0600
+
+genome-snapshot-deps (2013.01.03-1) lucid; urgency=low
+
+  * [cacc094] Added dep for log4perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Jan 2013 14:59:12 -0600
+
+genome-snapshot-deps (2013.01.02-1) lucid; urgency=low
+
+  * [9a49f65] Update TestTracker to 0.006-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 02 Jan 2013 16:17:34 -0600
+
+genome-snapshot-deps (2012.12.22-3) lucid; urgency=low
+
+  * [65132da] Updated minimum version of TestTracker to 0.005-3.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 22 Dec 2012 17:10:12 -0600
+
+genome-snapshot-deps (2012.12.22-2) lucid; urgency=low
+
+  * [e991cf8] Update minimum version of TestTracker to 0.004.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 22 Dec 2012 14:15:09 -0600
+
+genome-snapshot-deps (2012.12.22-1) lucid; urgency=low
+
+  * [a63081a] Added TestTracker.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 22 Dec 2012 04:17:09 -0600
+
+genome-snapshot-deps (2012.12.12-1) lucid; urgency=low
+
+  * [d727d42] add joinx1.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 12 Dec 2012 14:57:09 -0600
+
 genome-snapshot-deps (2012.12.05-1) lucid; urgency=low
 
   * [2c70bc7] added posgresql-client-8.4 since some code runs psql

@@ -65,6 +65,13 @@ for FILE in $(cd $DISTRO > /dev/null && ls genome-snapshot-deps-*.depends); do
         genome-snapshot-deps-lims)
             echo "Description: This meta-package installs the LIMS-APipe bridge dependencies."
             ;;
+        genome-snapshot-deps-flow)
+            echo "Description: This meta-package installs all the flow dependencies."
+            ;;
+        *)
+            echo "ERROR: '$PKG' needs to be added to 'build-control' script." 1>&2
+            exit 128
+            ;;
     esac
     echo ""
 

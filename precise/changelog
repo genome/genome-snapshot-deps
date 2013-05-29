@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.29-1~Ubuntu~precise) lucid; urgency=low
+
+  * [3afc5f4] sync with lucid 
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 20 Sep 2012 16:56:49 -0500
+
 genome-snapshot-deps (2012.09.20-2~Ubuntu~precise) lucid; urgency=low
 
   * [8d69322] update pairoscope version

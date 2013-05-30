@@ -1,3 +1,4 @@
-python-biopython (>= 1.53-1)
-python-pudb (>= 2011.3-1)
-python-pysam (>= 0.4.1-1)
+python-biopython (>= 1.58-1)
+python-pudb (>= 2012.1-1ubuntu0.1)
+python-pysam (>= 0.4.1-2~Ubuntu~precise)
+

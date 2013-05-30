@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.30-2~Ubuntu~precise) lucid; urgency=low
+
+  * [aef4c3e] removed cufflinks1.3.0 from precise until it can be packaged for it specially
+
+ -- Scott Smith <ssmith@genome.wustl.edu>  Thu, 30 May 2013 15:08:00 -0500
+
 genome-snapshot-deps (2013.05.30-1~Ubuntu~precise) lucid; urgency=low
 
   * [d7a4f7e] removed 4 packages from precise until they are built specially:

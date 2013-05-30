@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.05.30-1) lucid; urgency=low
+
+  * [b618370] add bwa 0.7.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 30 May 2013 15:37:24 -0500
+
 genome-snapshot-deps (2013.05.21-3) lucid; urgency=low
 
   * [108abb6] sorted lists

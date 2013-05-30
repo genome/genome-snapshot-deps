@@ -1,8 +1,14 @@
+genome-snapshot-deps (2013.05.29-2~Ubuntu~precise) lucid; urgency=low
+
+  * [c212a3b] numerous small updates to the lucid sync 
+
+ -- Scott Smith <ssmith@genome.wustl.edu>  Wed, 29 May 2013 20:04:00 -0500
+
 genome-snapshot-deps (2013.05.29-1~Ubuntu~precise) lucid; urgency=low
 
   * [3afc5f4] sync with lucid 
 
- -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 20 Sep 2012 16:56:49 -0500
+ -- Scott Smith <ssmith@genome.wustl.edu>  Wed, 29 May 2013 16:00:00 -0500
 
 genome-snapshot-deps (2012.09.20-2~Ubuntu~precise) lucid; urgency=low
 

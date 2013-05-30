@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.05.30-3~Ubuntu~precise) lucid; urgency=low
+
+  * [ed88d4e] removed -lims and -flow from the deps list for precise
+       ...flow will return when we have it ready for Precise
+
+ -- Scott Smith <ssmith@genome.wustl.edu>  Thu, 30 May 2013 15:31:00 -0500
+
 genome-snapshot-deps (2013.05.30-2~Ubuntu~precise) lucid; urgency=low
 
   * [aef4c3e] removed cufflinks1.3.0 from precise until it can be packaged for it specially

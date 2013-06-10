@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.06.10-3~Ubuntu~precise) lucid; urgency=low
+
+  * [7e238f7] update genome-snapshot-deps-apps-external 
+
+ -- Scott Smith <ssmith@genome.wustl.edu>  Mon, 10 May 2013 17:46:00 -0500
+
 genome-snapshot-deps (2013.05.30-4~Ubuntu~precise) lucid; urgency=low
 
   * [7e238f7] sync with lucid to get bwa0.7.5-1

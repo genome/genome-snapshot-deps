@@ -1,0 +1,8 @@
+Name: precise
+IncomingDir: ./incoming
+TempDir: ./tmp
+Allow: precise
+Default: precise
+Multiple: Yes
+Permit: older_version unused_files
+Cleanup: on_deny on_error unused_files

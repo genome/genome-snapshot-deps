@@ -32,3 +32,15 @@ ifndef DISTRO
 	@echo "Must specify DISTRO argument, e.g. DISTRO=lucid"
 	@exit 1
 endif
+
+test-repo:
+	sudo apt-get install reprepro
+	mkdir -p test-repo/local_$(DISTRO)/ubuntu/conf/
+	cd test-repo/local_$(DISTRO)/ubuntu/conf/
+	cp ../*.deb test-repo/local_$(DISTRO)/ubuntu/incoming/
+	reprepro -v -V -b test-repo/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)
+	sudo cp test-repo/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
+	sudo bash -c "cat test-repo/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"
+	sudo apt-get update
+	sudo apt-get install genome-snapshot-deps
+

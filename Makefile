@@ -35,12 +35,18 @@ endif
 
 test-repo:
 	sudo apt-get install reprepro
-	mkdir -p test-repo/local_$(DISTRO)/ubuntu/conf/
-	cd test-repo/local_$(DISTRO)/ubuntu/conf/
-	cp ../*.deb test-repo/local_$(DISTRO)/ubuntu/incoming/
-	reprepro -v -V -b test-repo/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)
-	sudo cp test-repo/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
-	sudo bash -c "cat test-repo/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"
-	sudo apt-get update
-	sudo apt-get install genome-snapshot-deps
+	[ test-repos/local_$(DISTRO)/ubuntu/conf ] || mkdir -p test-repos/local_$(DISTRO)/ubuntu/conf/
+	cd test-repos/local_$(DISTRO)/ubuntu/conf/
+	mkdir test-repos/local_$(DISTRO)/ubuntu/incoming/ || true
+	cp ../*.deb ../*.changes test-repos/local_$(DISTRO)/ubuntu/incoming/
+	reprepro -v -V -b test-repos/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)
+	sudo cp test-repos/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
+	sudo bash -c "cat test-repos/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"
+	sudo apt-get update || true
+	sudo apt-get install genome-snapshot-deps # run "make clean-test-repo" to re-try
+
+clean-test-repo:
+	rm -rf test-repos/local_precise/ubuntu/db/
+	rm -rf test-repos/local_precise/ubuntu/dists/
+	rm -rf test-repos/local_precise/ubuntu/pool/
 

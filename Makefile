@@ -34,11 +34,12 @@ ifndef DISTRO
 endif
 
 test-repo:
+	debsign -k $(MYGPGKEY) ../*.changes
 	sudo apt-get install reprepro
 	[ test-repos/local_$(DISTRO)/ubuntu/conf ] || mkdir -p test-repos/local_$(DISTRO)/ubuntu/conf/
 	cd test-repos/local_$(DISTRO)/ubuntu/conf/
 	mkdir test-repos/local_$(DISTRO)/ubuntu/incoming/ || true
-	cp ../*.deb ../*.changes test-repos/local_$(DISTRO)/ubuntu/incoming/
+	mv ../*.deb ../*.changes test-repos/local_$(DISTRO)/ubuntu/incoming/
 	reprepro -v -V -b test-repos/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)
 	sudo cp test-repos/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
 	sudo bash -c "cat test-repos/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"

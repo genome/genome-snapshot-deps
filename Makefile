@@ -4,10 +4,13 @@ nothing:
 	@echo "'make all' to build all binaries."
 	@echo "'make source' to build only source package."
 
-source:
+pkgs-for-building-pkgs:
+	sudo apt-get install debhelper git-buildpackage
+
+source: pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -us -S'
 
-all:
+all: pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -A'
 
 purge:

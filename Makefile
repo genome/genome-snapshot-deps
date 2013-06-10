@@ -5,7 +5,7 @@ nothing:
 	@echo "'make source' to build only source package."
 
 pkgs-for-building-pkgs:
-	sudo apt-get install debhelper git-buildpackage
+	(dpkg -l debhelper git-buildpackage >/dev/null) || sudo apt-get -q -y install debhelper git-buildpackage
 
 source: pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -us -S'

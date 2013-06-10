@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.06.10-2) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 10 Jun 2013 16:07:38 -0500
+
 genome-snapshot-deps (2013.06.10-1) lucid; urgency=low
 
   * [1a17117] add bwa 0.7.5a

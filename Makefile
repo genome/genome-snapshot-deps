@@ -48,7 +48,7 @@ test-repo:
 	sudo cp test-repos/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
 	sudo bash -c "cat test-repos/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"
 	sudo apt-get update || true
-	reprepro -v -V -b test-repos/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)
+	reprepro -v -V -b test-repos/local_$(DISTRO)/ubuntu/ processincoming $(DISTRO)_genome_development
 	sudo cp test-repos/etc+apt+preferences.d+local.pref /etc/apt/preferences.d/local.pref
 	sudo bash -c "cat test-repos/etc+apt+sources.list.d+local.list | perl -ne 's|PWD|$(PWD)|g; s|DISTRO|$(DISTRO)|g; print' >| /etc/apt/sources.list.d/local.list"
 	sudo apt-get update || true
@@ -64,6 +64,6 @@ clean-test-repo:
 	rm -rf test-repos/local_precise/ubuntu/db/
 	rm -rf test-repos/local_precise/ubuntu/dists/
 	rm -rf test-repos/local_precise/ubuntu/pool/
-	rm -f /etc/apt/preferences.d/local.pref
-	rm -f /etc/apt/sources.list.d/local.list
+	sudo rm -f /etc/apt/preferences.d/local.pref
+	sudo rm -f /etc/apt/sources.list.d/local.list
 

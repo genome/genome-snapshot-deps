@@ -1,0 +1,4 @@
+# local
+Package: *
+Pin: release o=The Genome Institute
+Pin-Priority: 1002

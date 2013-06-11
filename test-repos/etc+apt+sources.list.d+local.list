@@ -1,0 +1,2 @@
+deb file://PWD/test-repos/local_DISTRO/ubuntu DISTRO_genome_development main
+deb-src file://PWD/test-repos/local_DISTRO/ubuntu DISTRO_genome_development main

@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.06.19-2) lucid-genome-development; urgency=low
+
+  * [7647702] add strelka1.0.7-1 to the genome-snapshot-deps-apps-
+    external.depends for lucid and precise
+
+ -- The Genome Modeling System <gmt@genome.wustl.edu>  Wed, 19 Jun 2013 13:33:00 -0500
+
 genome-snapshot-deps (2013.06.19-1) lucid; urgency=low
 
   * [7647702] add strelka1.0.7-1 to the genome-snapshot-deps-apps-

@@ -37,7 +37,7 @@ ifndef DISTRO
 endif
 
 test-repo:
-	debsign -k $(MYGPGKEY) ../*.changes
+	debsign -k$(MYGPGKEY) ../*.changes
 	sudo apt-get install reprepro
 	[ test-repos/local_$(DISTRO)/ubuntu/conf ] || mkdir -p test-repos/local_$(DISTRO)/ubuntu/conf/
 	cd test-repos/local_$(DISTRO)/ubuntu/conf/
@@ -61,6 +61,9 @@ test-repo:
 	#
 	
 clean-test-repo:
+	rm -rf test-repos/local_lucid/ubuntu/db/
+	rm -rf test-repos/local_lucid/ubuntu/dists/
+	rm -rf test-repos/local_lucid/ubuntu/pool/
 	rm -rf test-repos/local_precise/ubuntu/db/
 	rm -rf test-repos/local_precise/ubuntu/dists/
 	rm -rf test-repos/local_precise/ubuntu/pool/

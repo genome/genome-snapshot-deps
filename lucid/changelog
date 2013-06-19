@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.06.19-1) lucid; urgency=low
+
+  * [7647702] add strelka1.0.7-1 to the genome-snapshot-deps-apps-
+    external.depends for lucid and precise
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Jun 2013 09:08:29 -0500
+
 genome-snapshot-deps (2013.06.10-2) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

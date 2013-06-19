@@ -1,8 +1,8 @@
-Name: precise_genome_development
+Name: lucid_genome_development
 IncomingDir: ./incoming
 TempDir: ./tmp
-Allow: precise_genome_development
-Default: precise_genome_development
+Allow: lucid_genome_development
+Default: lucid_genome_development
 Multiple: Yes
 Permit: older_version unused_files
 Cleanup: on_deny on_error unused_files

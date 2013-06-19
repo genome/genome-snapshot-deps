@@ -2,9 +2,9 @@
 Label: Ubuntu
 Origin: The Genome Institute
 Description: Genome Institute Package Repository
-Suite: precise_genome_development
+Suite: lucid_genome_development
 Version: 12.04
-Codename: precise_genome_development
+Codename: lucid_genome_development
 Components: main contrib non-free
 #Components: systems genome genome-staging genome-non-free
 Architectures: i386 amd64 source

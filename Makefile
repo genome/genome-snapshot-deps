@@ -25,7 +25,7 @@ debian: validate
 	cp -a $(DISTRO)/compat debian/
 	cp -a $(DISTRO)/changelog debian/
 	bin/build-control $(DISTRO) > debian/control
-	dpkg-buildpackage $(BUILD_FLAGS)
+	dpkg-buildpackage $(BUILD_FLAGS) --changes-option='-DDistribution=$(REPO)'
 
 validate:
 ifndef DISTRO
@@ -34,6 +34,10 @@ endif
 ifndef DISTRO
 	@echo "Must specify DISTRO argument, e.g. DISTRO=lucid"
 	@exit 1
+endif
+ifndef REPO
+REPO:=$(DISTRO)-genome-development
+	@echo "Assuming target repository is $(REPO)."
 endif
 
 test-repo:

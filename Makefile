@@ -37,7 +37,6 @@ ifndef DISTRO
 endif
 ifndef REPO
 REPO:=$(DISTRO)-genome-development
-	@echo "Assuming target repository is $(REPO)."
 endif
 
 test-repo:

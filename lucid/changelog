@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.06.19-3) lucid; urgency=low
+
+  * [5cf96b7] updated for manual build of genome-snapshot-deps for lucid
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Jun 2013 12:44:29 -0500
+
 genome-snapshot-deps (2013.06.19-2) lucid-genome-development; urgency=low
 
   * [7647702] add strelka1.0.7-1 to the genome-snapshot-deps-apps-

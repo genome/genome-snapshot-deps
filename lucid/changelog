@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.06.19-8) lucid; urgency=low
+
+  * Forced rebuild with no changes to lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Jun 2013 16:46:03 -0500
+
 genome-snapshot-deps (2013.06.19-7) lucid; urgency=low
 
   * [d352b28] Merge branch 'master' of ssh://git/srv/git/genome-

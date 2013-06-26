@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.06.26-1) lucid; urgency=low
+
+  * [2bc81f5] Add new cufflinks version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 26 Jun 2013 14:53:23 -0500
+
 genome-snapshot-deps (2013.06.25-1) lucid; urgency=low
 
   * [ba98b96] add breakdancer 1.4.1

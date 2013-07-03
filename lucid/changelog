@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.03-1) lucid; urgency=low
+
+  * [d026ffc] add new pairoscope version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 03 Jul 2013 17:38:09 -0500
+
 genome-snapshot-deps (2013.06.26-1) lucid; urgency=low
 
   * [2bc81f5] Add new cufflinks version

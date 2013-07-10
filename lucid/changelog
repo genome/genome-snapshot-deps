@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.10-1) lucid; urgency=low
+
+  * [fab3aaa] Added libredis-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 10 Jul 2013 14:32:53 -0500
+
 genome-snapshot-deps (2013.07.03-1) lucid; urgency=low
 
   * [d026ffc] add new pairoscope version

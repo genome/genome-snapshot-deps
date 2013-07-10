@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.10-2) lucid; urgency=low
+
+  * [c3f7f08] bump redis version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 10 Jul 2013 16:14:12 -0500
+
 genome-snapshot-deps (2013.07.10-1) lucid; urgency=low
 
   * [fab3aaa] Added libredis-perl

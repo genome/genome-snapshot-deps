@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.07.11-1) lucid; urgency=low
+
+  * [911db16] Revert "bump redis version" This is a natty package not
+    lucid.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 11 Jul 2013 14:41:10 -0500
+
 genome-snapshot-deps (2013.07.10-2) lucid; urgency=low
 
   * [c3f7f08] bump redis version

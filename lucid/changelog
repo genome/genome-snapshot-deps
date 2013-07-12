@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.12-1) lucid; urgency=low
+
+  * [5298612] Remove libredis-perl from genome-snapshot-deps-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 12 Jul 2013 14:32:11 -0500
+
 genome-snapshot-deps (2013.07.11-1) lucid; urgency=low
 
   * [911db16] Revert "bump redis version" This is a natty package not

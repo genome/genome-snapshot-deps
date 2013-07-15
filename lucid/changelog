@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.15-1) lucid; urgency=low
+
+  * [e73a1da] add Sort::strverscmp as a dependency
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 15 Jul 2013 16:11:12 -0500
+
 genome-snapshot-deps (2013.07.12-2) lucid; urgency=low
 
   * [959dec0] add breakdancer 1.4.2

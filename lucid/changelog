@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.07.18-2) lucid; urgency=low
+
+  * [548ed97] added genetorrent-download to lucid genome-snapshot-deps
+    apps external (depends)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 18 Jul 2013 14:05:12 -0500
+
 genome-snapshot-deps (2013.07.18-1) lucid; urgency=low
 
   * [8408b18] Needed for the new oracle instantclient 11.1 or 11.2

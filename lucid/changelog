@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.18-1) lucid; urgency=low
+
+  * [8408b18] Needed for the new oracle instantclient 11.1 or 11.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 18 Jul 2013 13:35:14 -0500
+
 genome-snapshot-deps (2013.07.16-1) lucid; urgency=low
 
   * [4f149eb] require libsort-strverscmp-perl (>= 0.011-1)

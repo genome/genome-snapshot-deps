@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.22-1) lucid; urgency=low
+
+  * [bff34bf] bumped genetorrent-download to 3.8.3-2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 22 Jul 2013 12:55:53 -0500
+
 genome-snapshot-deps (2013.07.18-2) lucid; urgency=low
 
   * [548ed97] added genetorrent-download to lucid genome-snapshot-deps

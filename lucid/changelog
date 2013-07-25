@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.25-2) lucid; urgency=low
+
+  * [56e8abe] remove libur-perl and libworkflow-perl as dependencies
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 25 Jul 2013 10:16:39 -0500
+
 genome-snapshot-deps (2013.07.25-1) lucid; urgency=low
 
   * [95deb1e] add a few more dependencies for UR and Workflow

@@ -235,11 +235,9 @@ libunicode-map-perl (>= 0.112-10build1)
 libuniversal-can-perl (>= 1.16-1)
 libuniversal-isa-perl (>= 1.02-1)
 libuniversal-moniker-perl (>= 0.08-6)
-libur-perl
 libvariable-magic-perl (>= 0.40-1)
 libweb-simple-perl (>= 0.002+dfsg-1)
 libwebservice-solr-perl (>= 0.09-1)
-libworkflow-perl
 libwww-mechanize-perl (>= 1.58-1)
 libxml-dom-perl (>= 1.44-1)
 libxml-dom-xpath-perl (>= 0.14-1)

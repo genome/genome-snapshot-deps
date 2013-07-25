@@ -14,7 +14,6 @@ libtest-simple-perl (>= 0.94-1)
 libtext-csv-perl (>= 1.16-1)
 libtime-hires-perl
 libtimedate-perl (>= 1.1900-1)
-libur-perl (>= 0.38-1)
 liburi-perl (>= 1.52-1)
 libxml-libxml-perl (>= 1.70.ds-1)
 libxml-libxslt-perl (>= 1.70-1)

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.07.31-1) lucid; urgency=low
+
+  * [34f1610] add libmath-combinatorics-perl (>= 0.09-3)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 31 Jul 2013 15:47:39 -0500
+
 genome-snapshot-deps (2013.07.25-2) lucid; urgency=low
 
   * [56e8abe] remove libur-perl and libworkflow-perl as dependencies

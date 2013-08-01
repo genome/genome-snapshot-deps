@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.08.01-1) lucid; urgency=low
+
+  * [81c4b64] add tophat1.3.1 packaged the new 1.4.0+ way
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 Aug 2013 14:17:36 -0500
+
 genome-snapshot-deps (2013.07.31-1) lucid; urgency=low
 
   * [34f1610] add libmath-combinatorics-perl (>= 0.09-3)

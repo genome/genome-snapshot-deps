@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.08.01-2) lucid; urgency=low
+
+  * [f3e15e1] Updated tophatfusion1.3.1 to -3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 Aug 2013 17:41:38 -0500
+
 genome-snapshot-deps (2013.08.01-1) lucid; urgency=low
 
   * [81c4b64] add tophat1.3.1 packaged the new 1.4.0+ way

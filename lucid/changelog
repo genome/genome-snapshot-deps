@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.08.29-1) lucid; urgency=low
+
+  * [fe77a88] Upped flow version to 0.5.4
+  * [de243e5] Added String::ShellQuote to gsd-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 29 Aug 2013 11:17:32 -0500
+
 genome-snapshot-deps (2013.08.22-1) lucid; urgency=low
 
   * [d3d0210] bump flow version to 0.5.3

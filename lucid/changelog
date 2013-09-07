@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.07-1) lucid; urgency=low
+
+  * [cfdfc3a] bump joinx version to 1.7.3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sat, 07 Sep 2013 14:11:40 -0500
+
 genome-snapshot-deps (2013.09.04-1) lucid; urgency=low
 
   * [05e9fa0] add libtext-format-perl and libfont-ttf-perl to lucid

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.10-2) lucid; urgency=low
+
+  * [427237e] Bump r-cran-copycat version by request (#94979).
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 10 Sep 2013 15:58:45 -0500
+
 genome-snapshot-deps (2013.09.10-1) lucid; urgency=low
 
   * [0aef99e] update to joinx1.7.4 on lucid

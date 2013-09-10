@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.10-1) lucid; urgency=low
+
+  * [0aef99e] update to joinx1.7.4 on lucid
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 10 Sep 2013 13:52:46 -0500
+
 genome-snapshot-deps (2013.09.07-1) lucid; urgency=low
 
   * [cfdfc3a] bump joinx version to 1.7.3

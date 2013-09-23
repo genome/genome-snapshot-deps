@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.23-1) lucid; urgency=low
+
+  * [05d3b5a] Bump minor version per request (RT#95259)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 23 Sep 2013 13:46:45 -0500
+
 genome-snapshot-deps (2013.09.17-1) lucid; urgency=low
 
   * [f2305f5] Updated required version of TestTracker to 0.035-1.

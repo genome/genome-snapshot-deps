@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.24-1) lucid; urgency=low
+
+  * [cd01f7b] Force 2.15.2, not 3.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Sep 2013 08:31:46 -0500
+
 genome-snapshot-deps (2013.09.23-2) lucid; urgency=low
 
   * [b0cc9af] add edgeR

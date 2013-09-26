@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.26-1) lucid; urgency=low
+
+  * [9a66b10] update joinx to 1.7.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 26 Sep 2013 18:55:48 -0500
+
 genome-snapshot-deps (2013.09.24-1) lucid; urgency=low
 
   * [cd01f7b] Force 2.15.2, not 3.0

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.27-1) lucid; urgency=low
+
+  * [54f16e2] add strelka 1.0.11
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 27 Sep 2013 16:07:47 -0500
+
 genome-snapshot-deps (2013.09.26-1) lucid; urgency=low
 
   * [9a66b10] update joinx to 1.7.5

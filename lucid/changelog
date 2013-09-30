@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.09.30-2) lucid; urgency=low
+
+  * [ec68b64] bump flow version to 0.5.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 30 Sep 2013 13:31:45 -0500
+
 genome-snapshot-deps (2013.09.30-1) lucid; urgency=low
 
   * [a72a56d] bump flow version to 0.5.6

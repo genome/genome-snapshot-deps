@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.10.03-3) lucid; urgency=low
+
+  * [d12d9e1] Change the name r-base-recommended to r-recommended
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Oct 2013 15:25:44 -0500
+
 genome-snapshot-deps (2013.10.03-2) lucid; urgency=low
 
   * [163bc42] Add strict versions for r-base, r-recommended, and r-cran-

@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.10.03-2) lucid; urgency=low
+
+  * [163bc42] Add strict versions for r-base, r-recommended, and r-cran-
+    boot.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Oct 2013 15:13:46 -0500
+
 genome-snapshot-deps (2013.10.03-1) lucid; urgency=low
 
   * [c1be4ef] specify exact version for r-cran-matrix

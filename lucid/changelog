@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.10.03-1) lucid; urgency=low
+
+  * [c1be4ef] specify exact version for r-cran-matrix
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 03 Oct 2013 11:58:44 -0500
+
 genome-snapshot-deps (2013.10.01-1) lucid; urgency=low
 
   * [39417af] bump flow version to 0.5.8

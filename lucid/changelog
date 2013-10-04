@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.10.04-1) lucid; urgency=low
+
+  * [fe91b64] update joinx to 1.7.6
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 04 Oct 2013 13:46:45 -0500
+
 genome-snapshot-deps (2013.10.03-3) lucid; urgency=low
 
   * [d12d9e1] Change the name r-base-recommended to r-recommended

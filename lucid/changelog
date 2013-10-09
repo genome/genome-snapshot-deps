@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.10.09-1) lucid; urgency=low
+
+  * [515849f] add bam-window to apps-tgi
+  * [3b1b663] add redis-server as a flow dependency
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 09 Oct 2013 13:55:50 -0500
+
 genome-snapshot-deps (2013.10.04-1) lucid; urgency=low
 
   * [fe91b64] update joinx to 1.7.6

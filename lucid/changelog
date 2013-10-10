@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.10.10-1) lucid; urgency=low
+
+  * [38e74e4] Update TestTracker to 0.036-1.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 10 Oct 2013 16:45:53 -0500
+
 genome-snapshot-deps (2013.10.09-1) lucid; urgency=low
 
   * [515849f] add bam-window to apps-tgi

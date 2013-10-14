@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.10.14-1) lucid; urgency=low
+
+  * [71c2b73] add dependencies for circos
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 14 Oct 2013 17:13:47 -0500
+
 genome-snapshot-deps (2013.10.10-1) lucid; urgency=low
 
   * [38e74e4] Update TestTracker to 0.036-1.

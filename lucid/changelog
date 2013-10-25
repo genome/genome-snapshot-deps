@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.10.24-1) lucid; urgency=low
+
+  * [76d838e] depend on circos 0.64
+  * [d7b636e] Bumped up flow version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 24 Oct 2013 20:49:40 -0500
+
 genome-snapshot-deps (2013.10.14-1) lucid; urgency=low
 
   * [71c2b73] add dependencies for circos

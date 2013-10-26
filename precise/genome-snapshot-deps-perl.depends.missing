@@ -1,0 +1,2 @@
+libset-intervaltree-perl (>=0.07-1)
+libdbd-pg-perl (>=2.19.3-2)

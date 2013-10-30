@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.10.30-1) lucid; urgency=low
+
+  * [f280077] change copycat version to 1.6-2 (from 1.6.2-1)
+  * [36564c3] bump copy-cat version to 1.6.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 30 Oct 2013 08:56:41 -0500
+
 genome-snapshot-deps (2013.10.24-1) lucid; urgency=low
 
   * [76d838e] depend on circos 0.64

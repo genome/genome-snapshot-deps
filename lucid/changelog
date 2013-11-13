@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.11.13-1) lucid; urgency=low
+
+  * [be86add] update joinx 1.6/1.7
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 13 Nov 2013 16:53:25 -0600
+
 genome-snapshot-deps (2013.11.05-2) lucid; urgency=low
 
   * [4ae535d] add r-cran-getopt

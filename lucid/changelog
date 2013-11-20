@@ -1,3 +1,10 @@
+genome-snapshot-deps (2013.11.20-1) lucid; urgency=low
+
+  * [80c156a] joinx 1.8.1
+  * [d2abce9] Add new pindel version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 20 Nov 2013 15:41:25 -0600
+
 genome-snapshot-deps (2013.11.15-2) lucid; urgency=low
 
   * [fec74a7] bump ptero version to 0.5.11

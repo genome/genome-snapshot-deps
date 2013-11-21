@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.11.21-2) lucid; urgency=low
+
+  * [94037e5] New new version of pindel
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Nov 2013 15:17:22 -0600
+
 genome-snapshot-deps (2013.11.21-1) lucid; urgency=low
 
   * [882273e] Remove new pindel

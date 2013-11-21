@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.11.21-3) lucid; urgency=low
+
+  * [f0bbabf] update joinx1.8 to 1.8.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 21 Nov 2013 16:08:21 -0600
+
 genome-snapshot-deps (2013.11.21-2) lucid; urgency=low
 
   * [94037e5] New new version of pindel

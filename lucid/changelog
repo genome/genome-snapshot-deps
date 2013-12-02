@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.12.02-1) lucid; urgency=low
+
+  * [eff9d23] updated edger, add limma (r packages)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 02 Dec 2013 13:41:26 -0600
+
 genome-snapshot-deps (2013.11.21-4) lucid; urgency=low
 
   * [6305f88] Go back to previous version

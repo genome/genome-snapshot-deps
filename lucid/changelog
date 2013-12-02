@@ -1,3 +1,9 @@
+genome-snapshot-deps (2013.12.02-2) lucid; urgency=low
+
+  * [810cf9a] Requrie python-pysam 0.6 from RT 96264
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 02 Dec 2013 14:47:22 -0600
+
 genome-snapshot-deps (2013.12.02-1) lucid; urgency=low
 
   * [eff9d23] updated edger, add limma (r packages)

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.01.06-1) lucid; urgency=low
+
+  * [b588bb3] sra-toolkit updated for INFOSYS-9443
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 06 Jan 2014 11:59:15 -0600
+
 genome-snapshot-deps (2013.12.16-1) lucid; urgency=low
 
   * [0398242] add MuTect 1.1.4

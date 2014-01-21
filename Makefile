@@ -8,7 +8,9 @@ nothing:
 
 
 pkgs-for-building-pkgs:
-	(dpkg -l debhelper git-buildpackage >/dev/null) || sudo apt-get -q -y install debhelper git-buildpackage
+	for PKG in debhelper git-buildpackage; do \
+	  dpkg -l $$PKG | grep -q "^ii " || sudo apt-get -q -y install $$PKG; \
+	done
 
 source: pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -us -S'

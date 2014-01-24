@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.01.23-1) lucid; urgency=low
+
+  * [e8567fb] add newest bam-readcount
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 23 Jan 2014 23:50:17 -0600
+
 genome-snapshot-deps (2014.01.06-2) lucid; urgency=low
 
   * [f731f91] joinx v1.8.2 -> v1.8.3

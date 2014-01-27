@@ -43,7 +43,7 @@ endif
 
 test-repo:
 	debsign -k$(MYGPGKEY) ../*.changes
-	sudo apt-get install reprepro
+	sudo dpkg -l reprepro >/dev/null || sudo apt-get install reprepro
 	[ test-repos/local_$(DISTRO)/ubuntu/conf ] || mkdir -p test-repos/local_$(DISTRO)/ubuntu/conf/
 	cd test-repos/local_$(DISTRO)/ubuntu/conf/
 	mkdir test-repos/local_$(DISTRO)/ubuntu/incoming/ || true

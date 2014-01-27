@@ -1,6 +1,6 @@
 # Basic distributions file
 Label: Ubuntu
-Origin: The Genome Institute
+Origin: Local
 Description: Genome Institute Package Repository
 Suite: lucid_genome_development
 Version: 12.04

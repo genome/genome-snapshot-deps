@@ -9,7 +9,7 @@ if [ ! -d "$DISTRO" ]; then
 fi
 
 function cat_deps {
-    cat $1 | grep -v ^$ | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/'
+    egrep -v "^(#|$)" $1 | sed -r -e 's/^[\t ]*/\t/' -e 's/,?$/,/' ||:
 }
 
 echo "Source: genome-snapshot-deps"
@@ -23,18 +23,32 @@ case $DISTRO in
 esac
 echo "Standards-Version: 3.8.3"
 echo ""
-for FILE in $(cd $DISTRO > /dev/null && ls genome-snapshot-deps-*.depends); do
-    PKG=${FILE/.depends}
+find $DISTRO/ -type f -name "genome-snapshot-deps*" -printf "%f\n" | \
+  cut -d . -f 1 | sort | uniq | while read PKG; do
     echo "Package: $PKG"
     echo "Architecture: all"
 
-    echo "Depends:"
-    cat_deps "$DISTRO/$PKG.depends"
+    PREDEPENDS="$DISTRO/$PKG.pre-depends"
+    if [ -f "$PREDEPENDS" ]; then
+        echo "Pre-Depends:"
+        cat_deps "$PREDEPENDS"
+    fi
+
+    DEPENDS="$DISTRO/$PKG.depends"
+    if [ -f "$DEPENDS" ]; then
+        echo "Depends:"
+        cat_deps "$DISTRO/$PKG.depends"
+    fi
 
     SUGGESTS="$DISTRO/$PKG.suggests"
     if [ -f "$SUGGESTS" ]; then
         echo "Suggests:"
         cat_deps "$SUGGESTS"
+    fi
+    CONFLICTS="$DISTRO/$PKG.conflicts"
+    if [ -f "$CONFLICTS" ]; then
+        echo "Conflicts:"
+        cat_deps "$CONFLICTS"
     fi
 
     case $PKG in

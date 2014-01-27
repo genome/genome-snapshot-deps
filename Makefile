@@ -41,8 +41,35 @@ ifndef REPO
 REPO:=$(DISTRO)-genome-development
 endif
 
-test-repo:
-	debsign -k$(MYGPGKEY) ../*.changes
+define KEYPARAMS
+%echo Generating a standard key
+Key-Type: DSA
+Key-Length: 1024
+Subkey-Type: ELG-E
+Subkey-Length: 1024
+Name-Real: vagrant
+Name-Email: vagrant@devnull.com
+Expire-Date: 0
+%commit
+%echo done
+endef
+export KEYPARAMS
+
+keyparams:
+	@echo "$$KEYPARAMS" > $${HOME}/keyparams
+
+test-keys: keyparams
+	@sudo dpkg -l rng-tools >/dev/null || sudo apt-get install rng-tools
+	@grep -q "^HRNGDEVICE" /etc/default/rng-tools || \
+		echo "HRNGDEVICE=/dev/urandom\nRNGDOPTIONS=\"-W 90% -t 1\"\n" | \
+		sudo tee -a /etc/default/rng-tools
+	@sudo /etc/init.d/rng-tools restart ||:
+	@gpg --list-keys vagrant >/dev/null 2>&1  || \
+		gpg --gen-key --batch $${HOME}/keyparams
+	@export MYGPGKEY=vagrant
+
+test-repo: test-keys
+	debsign --re-sign -k$(MYGPGKEY) ../*.changes
 	sudo dpkg -l reprepro >/dev/null || sudo apt-get install reprepro
 	[ test-repos/local_$(DISTRO)/ubuntu/conf ] || mkdir -p test-repos/local_$(DISTRO)/ubuntu/conf/
 	cd test-repos/local_$(DISTRO)/ubuntu/conf/

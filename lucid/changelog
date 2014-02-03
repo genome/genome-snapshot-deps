@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.02.03-1) lucid; urgency=low
+
+  * [cc53f9e] add Test::Fatal to Perl deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 03 Feb 2014 13:29:18 -0600
+
 genome-snapshot-deps (2014.01.23-1) lucid; urgency=low
 
   * [e8567fb] add newest bam-readcount

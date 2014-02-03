@@ -216,6 +216,7 @@ libterm-readline-gnu-perl (>= 1.19-2)
 libtest-class-perl (>= 0.33-1)
 libtest-differences-perl (>= 0.50.0-1)
 libtest-exception-perl (>= 0.29-1)
+libtest-fatal-perl
 libtest-file-perl (>= 1.29-1) 
 libtest-mockobject-perl (>= 1.09-1)
 libtest-output-perl (>= 0.16-1)

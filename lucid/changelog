@@ -1,3 +1,11 @@
+genome-snapshot-deps (2014.02.10-1) lucid; urgency=low
+
+  * [6344d77] fix typo in package name
+  * [6590317] add libmodule-runtime
+  * [adc5dc4] add liblog-dispatch-screen-color-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 10 Feb 2014 16:20:23 -0600
+
 genome-snapshot-deps (2014.02.03-1) lucid; urgency=low
 
   * [cc53f9e] add Test::Fatal to Perl deps

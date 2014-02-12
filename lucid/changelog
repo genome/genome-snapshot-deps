@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.02.12-1) lucid; urgency=low
+
+  * [c1ee610] Add verify-bam-id
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 12 Feb 2014 11:08:19 -0600
+
 genome-snapshot-deps (2014.02.10-1) lucid; urgency=low
 
   * [6344d77] fix typo in package name

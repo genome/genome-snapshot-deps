@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.02.19-1) lucid; urgency=low
+
+  * [048866f] joinx 1.8.3 -> 1.8.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Feb 2014 09:17:11 -0600
+
 genome-snapshot-deps (2014.02.12-1) lucid; urgency=low
 
   * [c1ee610] Add verify-bam-id

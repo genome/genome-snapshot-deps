@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.02.25-1) lucid; urgency=low
+
+  * [a7d5cb8] Add seq-grind to perl deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 25 Feb 2014 16:14:07 -0600
+
 genome-snapshot-deps (2014.02.24-1) lucid; urgency=low
 
   * [82ff3e0] Bump copycat version.

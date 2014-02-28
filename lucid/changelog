@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.02.28-1) lucid; urgency=low
+
+  * [e8724f8] add libnessy-client-perl to perl deps for the new locking
+    service
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 28 Feb 2014 10:56:12 -0600
+
 genome-snapshot-deps (2014.02.25-1) lucid; urgency=low
 
   * [a7d5cb8] Add seq-grind to perl deps

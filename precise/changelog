@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.03-1~Ubuntu~precise) precise; urgency=low
+
+  * [d17ffca] remove R dependencies for precise
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Wed, 12 Feb 2014 16:14:18 -0500
+
 genome-snapshot-deps (2014.02.19-1~Ubuntu~precise) precise; urgency=low
 
   * [6b0e391] update R dependencies for precise

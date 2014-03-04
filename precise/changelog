@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.04-1~Ubuntu~precise) precise; urgency=low
+
+  * [ea26aaf] add libset-interval-tree to precise perl-deps
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Wed, 12 Feb 2014 16:14:18 -0500
+
 genome-snapshot-deps (2014.03.03-1~Ubuntu~precise) precise; urgency=low
 
   * [d17ffca] remove R dependencies for precise

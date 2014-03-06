@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.05-1) lucid; urgency=low
+
+  * [a6b3f9b] update to newest bam-readcount0.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 05 Mar 2014 23:50:07 -0600
+
 genome-snapshot-deps (2014.02.28-1) lucid; urgency=low
 
   * [e8724f8] add libnessy-client-perl to perl deps for the new locking

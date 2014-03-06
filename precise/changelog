@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.06-2~Ubuntu~precise) precise; urgency=low
+
+  * [8d7b8ed] add module runtime
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 06 Mar 2014 13:24:30 -0500
+
 genome-snapshot-deps (2014.03.06-1~Ubuntu~precise) precise; urgency=low
 
   * [54cf954] update bam-readcounts version

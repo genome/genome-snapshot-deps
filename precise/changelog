@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.10-1~Ubuntu~precise) precise; urgency=low
+
+  * [2e1d398] add circos 
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 10 Mar 2014 12:36:30 -0500
+
 genome-snapshot-deps (2014.03.06-2~Ubuntu~precise) precise; urgency=low
 
   * [8d7b8ed] add module runtime

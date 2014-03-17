@@ -1,6 +1,18 @@
+genome-snapshot-deps (2014.03.17-2~Ubuntu~precise) precise; urgency=low
+
+  * [03f5bfd] add seqgrind to precise perl depends
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 17 Mar 2014 11:29:30 -0500
+
+genome-snapshot-deps (2014.03.17-1~Ubuntu~precise) precise; urgency=low
+
+  * [4d5e663] add tested tgi apps to precise
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 17 Mar 2014 10:54:30 -0500
+
 genome-snapshot-deps (2014.03.12-1~Ubuntu~precise) precise; urgency=low
 
-  * [2e1d398] add libsort-strverscmp-perl
+  * [6952cda] add libsort-strverscmp-perl
 
  -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 12 Mar 2014 10:54:30 -0500
 

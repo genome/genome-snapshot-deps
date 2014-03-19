@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.19-1) lucid; urgency=low
+
+  * [3394b45] Bump copycat version to 1.6.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Mar 2014 14:32:35 -0500
+
 genome-snapshot-deps (2014.03.13-1) lucid; urgency=low
 
   * [cc3ff2a] update joinx1.{6,7,8}

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.03.27-1) lucid; urgency=low
+
+  * [3cca561] Set minimum R copyCat version to 1.6-5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 27 Mar 2014 16:20:51 -0500
+
 genome-snapshot-deps (2014.03.21-1) lucid; urgency=low
 
   * [05204a9] release sniper1.0.3 package

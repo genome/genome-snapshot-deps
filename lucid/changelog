@@ -1,3 +1,11 @@
+genome-snapshot-deps (2014.04.01-1) lucid; urgency=low
+
+  * [210a262] fix version number
+  * [9226a0c] fix version of cn.mops
+  * [9b088a2] add cn.mops to lucid dependencies
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 01 Apr 2014 09:47:52 -0500
+
 genome-snapshot-deps (2014.03.27-1) lucid; urgency=low
 
   * [3cca561] Set minimum R copyCat version to 1.6-5

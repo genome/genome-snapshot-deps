@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.04.01-3) lucid; urgency=low
+
+  * [64eb652] Bump package version of bowtie and tophat to update
+    /etc/alternatives
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 01 Apr 2014 17:08:58 -0500
+
 genome-snapshot-deps (2014.04.01-2) lucid; urgency=low
 
   * [cfe7f66] Merge branch 'master' of ssh://git/srv/git/genome-

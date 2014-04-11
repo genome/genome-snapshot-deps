@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.04.11-1) lucid; urgency=low
+
+  * [1752737] added r-tgi-bmm and r-tgi-sciclone to r deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 11 Apr 2014 14:08:56 -0500
+
 genome-snapshot-deps (2014.04.04-1) lucid; urgency=low
 
   * [a7f9bd1] added bam-util1.0.11 to lucid/genome-snapshot-deps-apps-

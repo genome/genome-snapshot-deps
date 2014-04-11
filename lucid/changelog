@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.04.11-2) lucid; urgency=low
+
+  * [acf6fde] Add Test::Deep
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 11 Apr 2014 14:20:47 -0500
+
 genome-snapshot-deps (2014.04.11-1) lucid; urgency=low
 
   * [1752737] added r-tgi-bmm and r-tgi-sciclone to r deps

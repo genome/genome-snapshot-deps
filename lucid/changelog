@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.04.17-1) lucid; urgency=low
+
+  * [f0ee729] require libnessy-client-perl >= 0.003-1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 17 Apr 2014 12:53:54 -0500
+
 genome-snapshot-deps (2014.04.16-1) lucid; urgency=low
 
   * [2d17114] joinx 1.8.6 -> 1.8.7

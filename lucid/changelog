@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.04.24-1) lucid; urgency=low
+
+  * [7630860] Added File::Touch
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 24 Apr 2014 16:38:55 -0500
+
 genome-snapshot-deps (2014.04.17-1) lucid; urgency=low
 
   * [f0ee729] require libnessy-client-perl >= 0.003-1

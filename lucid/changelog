@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.04.29-1) lucid; urgency=low
+
+  * [de5b436] add star2.3.1z1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 29 Apr 2014 14:54:03 -0500
+
 genome-snapshot-deps (2014.04.25-1) lucid; urgency=low
 
   * [54f9712] sort genome-snapshot-deps-perl.depends

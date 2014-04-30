@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.04.30-1) lucid; urgency=low
+
+  * [8cfb385] update bam-readcount to 0.5.3. This should fix some indel
+    reporting bugs
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 30 Apr 2014 16:32:55 -0500
+
 genome-snapshot-deps (2014.04.29-1) lucid; urgency=low
 
   * [de5b436] add star2.3.1z1

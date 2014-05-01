@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.01-1) lucid; urgency=low
+
+  * [d915905] adding normt3 package to deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 May 2014 10:38:57 -0500
+
 genome-snapshot-deps (2014.04.30-1) lucid; urgency=low
 
   * [8cfb385] update bam-readcount to 0.5.3. This should fix some indel

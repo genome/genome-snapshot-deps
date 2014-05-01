@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.01-2) lucid; urgency=low
+
+  * [8ffbddc] adding more sciclone deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 May 2014 10:50:53 -0500
+
 genome-snapshot-deps (2014.05.01-1) lucid; urgency=low
 
   * [d915905] adding normt3 package to deps

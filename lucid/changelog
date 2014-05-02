@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.02-1) lucid; urgency=low
+
+  * [cc50dcc] Require TestTracker 0.037
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 02 May 2014 14:14:57 -0500
+
 genome-snapshot-deps (2014.05.01-3) lucid; urgency=low
 
   * [e067f08] reverting new packages - need to be test for R 2.15

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.13-1) lucid; urgency=low
+
+  * [80cac15] Add flexbar2.4 to lucid external deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 13 May 2014 15:41:52 -0500
+
 genome-snapshot-deps (2014.05.02-1) lucid; urgency=low
 
   * [cc50dcc] Require TestTracker 0.037

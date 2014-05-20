@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.20-1) lucid; urgency=low
+
+  * [33ba494] update nessy client to 0.010
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 20 May 2014 16:02:16 -0500
+
 genome-snapshot-deps (2014.05.13-1) lucid; urgency=low
 
   * [80cac15] Add flexbar2.4 to lucid external deps

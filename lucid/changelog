@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.05.22-2) lucid; urgency=low
+
+  * [1c43654] Add picard 1.113 package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 22 May 2014 15:20:19 -0500
+
 genome-snapshot-deps (2014.05.22-1) lucid; urgency=low
 
   * [6fce1d8] bump flow version to 0.5.12

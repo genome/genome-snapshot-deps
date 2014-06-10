@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.06.10-1) lucid; urgency=low
+
+  * [9916334] bumping copycat to 1.6.8
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 10 Jun 2014 14:53:21 -0500
+
 genome-snapshot-deps (2014.06.04-1) lucid; urgency=low
 
   * [de955da] bump flow version to 0.5.13

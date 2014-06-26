@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.06.26-1) lucid; urgency=low
+
+  * [0c842b1] Add bwa0.7.9a package.
+  * [721fced] Add bwa0.7.8 package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 26 Jun 2014 13:59:22 -0500
+
 genome-snapshot-deps (2014.06.10-1) lucid; urgency=low
 
   * [9916334] bumping copycat to 1.6.8

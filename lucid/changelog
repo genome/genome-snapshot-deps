@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.07.08-1) lucid; urgency=low
+
+  * [ee6f5fd] joinx1.8.7 -> 1.8.8
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 08 Jul 2014 14:08:26 -0500
+
 genome-snapshot-deps (2014.06.30-1) lucid; urgency=low
 
   * [73f4c07] release sniper1.0.4 package

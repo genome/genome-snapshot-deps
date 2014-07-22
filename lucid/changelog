@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.07.22-1) lucid; urgency=low
+
+  * [fe6a04e] Add File::DirCompare"
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 22 Jul 2014 12:56:19 -0500
+
 genome-snapshot-deps (2014.07.16-1) lucid; urgency=low
 
   * [7718f51] bump flow version to 0.5.14

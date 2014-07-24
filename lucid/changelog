@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.07.24-1) lucid; urgency=low
+
+  * [6230a62] add bam-readcount 0.6.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 24 Jul 2014 15:44:22 -0500
+
 genome-snapshot-deps (2014.07.22-1) lucid; urgency=low
 
   * [fe6a04e] Add File::DirCompare"

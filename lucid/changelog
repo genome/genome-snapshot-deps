@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.07.30-1) lucid; urgency=low
+
+  * [779aebb] Added gotcloud-bin
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 30 Jul 2014 18:35:19 -0500
+
 genome-snapshot-deps (2014.07.28-1) lucid; urgency=low
 
   * [b671116] add joinx1.9

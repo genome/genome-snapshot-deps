@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.08.19-1) lucid; urgency=low
+
+  * [98e9835] joinx v1.9.2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 19 Aug 2014 11:53:46 -0500
+
 genome-snapshot-deps (2014.08.04-1) lucid; urgency=low
 
   * [dcfea6c] joinx1.9.1

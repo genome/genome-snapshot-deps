@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.09.05-1) lucid; urgency=low
+
+  * [7d13e9e] include Sub::Override
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Sep 2014 14:41:53 -0500
+
 genome-snapshot-deps (2014.08.19-2) lucid; urgency=low
 
   * [cf862b4] backfill lucid-2014.08.19-1 changelog

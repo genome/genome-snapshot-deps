@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.09.05-2) lucid; urgency=low
+
+  * [4840d02] joinx -> 1.9.3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 05 Sep 2014 22:11:50 -0500
+
 genome-snapshot-deps (2014.09.05-1) lucid; urgency=low
 
   * [7d13e9e] include Sub::Override

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.09.09-1) lucid; urgency=low
+
+  * [3185b49] Bump seqgrind to version 0.1.3
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 09 Sep 2014 11:53:50 -0500
+
 genome-snapshot-deps (2014.09.05-2) lucid; urgency=low
 
   * [4840d02] joinx -> 1.9.3

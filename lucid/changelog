@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.09.17-1) lucid; urgency=low
+
+  * [e438523] dindel-tgi1.01
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 17 Sep 2014 14:19:14 -0500
+
 genome-snapshot-deps (2014.09.11-1) lucid; urgency=low
 
   * [cc5be7d] joinx1.9.4

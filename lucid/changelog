@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.10.06-1) lucid; urgency=low
+
+  * [689bfe1] Bump seqgrind to version 0.1.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 06 Oct 2014 16:49:15 -0500
+
 genome-snapshot-deps (2014.09.17-1) lucid; urgency=low
 
   * [e438523] dindel-tgi1.01

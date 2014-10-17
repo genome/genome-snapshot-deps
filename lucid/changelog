@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.10.17-1) lucid; urgency=low
+
+  * [e13f119] bumping copycat version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 17 Oct 2014 10:04:15 -0500
+
 genome-snapshot-deps (2014.10.06-1) lucid; urgency=low
 
   * [689bfe1] Bump seqgrind to version 0.1.4

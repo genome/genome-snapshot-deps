@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.10.27-1) lucid; urgency=low
+
+  * [42e2236] Add picard 1.123 package.
+  * [09d57ae] Add picard 1.122 package.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 27 Oct 2014 17:43:05 -0500
+
 genome-snapshot-deps (2014.10.17-1) lucid; urgency=low
 
   * [e13f119] bumping copycat version

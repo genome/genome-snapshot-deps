@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.10.31-3) lucid; urgency=low
+
+  * [686f489] add bam-window0.5
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 31 Oct 2014 15:29:13 -0500
+
 genome-snapshot-deps (2014.10.31-2) lucid; urgency=low
 
   * [b7ad246] rollback sciclone version

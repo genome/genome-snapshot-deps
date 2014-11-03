@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.11.03-1) lucid; urgency=low
+
+  * [6ce3afd] sciclone 1.0.7 should be installable now
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 03 Nov 2014 15:59:14 -0600
+
 genome-snapshot-deps (2014.10.31-3) lucid; urgency=low
 
   * [686f489] add bam-window0.5

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.11.12-1) lucid; urgency=low
+
+  * [3502d33] fix broken sciclone packaging
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 12 Nov 2014 23:16:21 -0600
+
 genome-snapshot-deps (2014.11.05-1) lucid; urgency=low
 
   * [39b4f1c] bam-window 0.5.2

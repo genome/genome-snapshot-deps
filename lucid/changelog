@@ -1,3 +1,10 @@
+genome-snapshot-deps (2014.12.07-2) lucid; urgency=low
+
+  * [77c7a6e] update joinx1.10 to 1.10.1 for lucid and precise
+  * [f3a051f] add joinx1.10 to lucid
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Sun, 07 Dec 2014 19:13:15 -0600
+
 genome-snapshot-deps (2014.12.07-1) lucid; urgency=low
 
   * [2c81882] add bam-readcount 0.7.3

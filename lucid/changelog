@@ -1,3 +1,9 @@
+genome-snapshot-deps (2014.12.15-1) lucid; urgency=low
+
+  * [ec2cfcb] fix 0.7 deploy
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 15 Dec 2014 15:43:12 -0600
+
 genome-snapshot-deps (2014.12.07-2) lucid; urgency=low
 
   * [77c7a6e] update joinx1.10 to 1.10.1 for lucid and precise

@@ -1,3 +1,11 @@
+genome-snapshot-deps (2014.12.16-1) lucid; urgency=low
+
+  * [32d0de5] Merge pull request #3 from tmooney/libfile-readbackwards-
+    perl
+  * [a9fb6a5] Add libfile-readbackwards-perl.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 16 Dec 2014 13:04:13 -0600
+
 genome-snapshot-deps (2014.12.15-1) lucid; urgency=low
 
   * [ec2cfcb] fix 0.7 deploy

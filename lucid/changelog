@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.01.02-1) lucid; urgency=low
+
+  * [97ccd5c] Remove dindel-tgi1.01
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 02 Jan 2015 16:22:17 -0600
+
 genome-snapshot-deps (2014.12.30-1) lucid; urgency=low
 
   * [e7ea102] Add bwa0.7.12 package.

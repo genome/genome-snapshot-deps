@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.01.05-1) lucid; urgency=low
+
+  * [8733db3] Merge pull request #6 from mark-burnett/update-nessy
+  * [f70603a] update nessy client package
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 05 Jan 2015 08:04:17 -0600
+
 genome-snapshot-deps (2015.01.02-1) lucid; urgency=low
 
   * [97ccd5c] Remove dindel-tgi1.01

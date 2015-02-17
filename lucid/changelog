@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.02.17-1) lucid; urgency=low
+
+  * [65ceff2] joinx1.11
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 17 Feb 2015 11:28:15 -0600
+
 genome-snapshot-deps (2015.02.12-1) lucid; urgency=low
 
   * [0cab1bd] Merge pull request #11 from iferguson90/master

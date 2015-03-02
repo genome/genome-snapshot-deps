@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.03.02-1~Ubuntu~precise) precise; urgency=low
+
+  * [65ceff2] updated versions of multiple tools including joinx, bwa,
+    bam-window.
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Thu, 02 Mar 2015 12:56:16 -0500
+
 genome-snapshot-deps (2014.04.02-1~Ubuntu~precise) precise; urgency=low
 
   * [a293294] fix version of libset-interval-tree-perl to =0.07-1~precise0

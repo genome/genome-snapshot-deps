@@ -1,3 +1,11 @@
+genome-snapshot-deps (2015.03.03-1) lucid; urgency=low
+
+  * [b0d062d] Add samtools1.2 (>= 1.2-1)
+  * [fdfbc06] Add samtools1.1 (>= 1.1-1)
+  * [2134378] Add samtools1.0 (>= 1.0-1)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 03 Mar 2015 15:31:17 -0600
+
 genome-snapshot-deps (2015.02.17-1) lucid; urgency=low
 
   * [65ceff2] joinx1.11

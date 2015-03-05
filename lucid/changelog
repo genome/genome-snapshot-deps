@@ -1,3 +1,11 @@
+genome-snapshot-deps (2015.03.05-1) lucid; urgency=low
+
+  * [d8cc52e] Bump samtools1.2 from 1.2-1 to 1.2-2
+  * [75bbd52] Bump samtools1.1 from 1.1-1 to 1.1-2
+  * [e20ee6e] Bump samtools1.0 from 1.0-1 to 1.0-2
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 05 Mar 2015 12:52:14 -0600
+
 genome-snapshot-deps (2015.03.03-1) lucid; urgency=low
 
   * [b0d062d] Add samtools1.2 (>= 1.2-1)

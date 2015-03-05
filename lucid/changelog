@@ -1,3 +1,15 @@
+genome-snapshot-deps (2015.03.05-2) lucid; urgency=low
+
+  * [2854b3c] Merge pull request #16 from iferguson90/bcftools
+  * [8b508d2] Bump bcftools1.2 from 1.2-1 to 1.2-2
+  * [da56646] Bump bcftools1.1 from 1.1-1 to 1.1-2
+  * [40c288f] Bump bcftools1.0 from 1.0-1 to 1.0-2
+  * [c44bb55] Add bcftools1.2 (>= 1.2-1)
+  * [a436007] Add bcftools1.1 (>= 1.1-1)
+  * [9fd6d17] Add bcftools1.0 (>= 1.0-1)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 05 Mar 2015 12:58:15 -0600
+
 genome-snapshot-deps (2015.03.05-1) lucid; urgency=low
 
   * [d8cc52e] Bump samtools1.2 from 1.2-1 to 1.2-2

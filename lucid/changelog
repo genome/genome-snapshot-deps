@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.03.06-1) lucid; urgency=low
+
+  * [50ac8f8] Merge pull request #18 from iferguson90/samblaster
+  * [d5cde62] Add samblaster0.1.21 (>= 0.1.21-2)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 06 Mar 2015 13:46:16 -0600
+
 genome-snapshot-deps (2015.03.05-2) lucid; urgency=low
 
   * [2854b3c] Merge pull request #16 from iferguson90/bcftools

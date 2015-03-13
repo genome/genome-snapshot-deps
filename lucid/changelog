@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.03.13-1) lucid; urgency=low
+
+  * [e4d81bc] Require python-pysam 0.7.8 from RT 104508
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 13 Mar 2015 13:07:14 -0500
+
 genome-snapshot-deps (2015.03.11-1) lucid; urgency=low
 
   * [95a3c6a] Update joinx 1.11 to 1.11.1

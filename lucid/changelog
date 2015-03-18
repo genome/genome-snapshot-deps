@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.03.18-2) lucid; urgency=low
+
+  * [635c0d9] Merge pull request #23 from mkiwala/master
+  * [634cf7c] Add libptero-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 18 Mar 2015 14:31:13 -0500
+
 genome-snapshot-deps (2015.03.18-1) lucid; urgency=low
 
   * [af3188d] Merge pull request #14 from gatoravi/master

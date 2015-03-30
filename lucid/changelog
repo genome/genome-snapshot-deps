@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.03.24-1) lucid; urgency=low
+
+  * [a1d894e] Add streamgraph as a dependency
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 24 Mar 2015 09:25:21 -0500
+
 genome-snapshot-deps (2015.03.18-2) lucid; urgency=low
 
   * [635c0d9] Merge pull request #23 from mkiwala/master

@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.03.31-1) lucid; urgency=low
+
+  * [2063f56] Merge branch 'master' of github.com:genome/genome-
+    snapshot-deps
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 31 Mar 2015 16:04:20 -0500
+
 genome-snapshot-deps (2015.03.24-1) lucid; urgency=low
 
   * [a1d894e] Add streamgraph as a dependency

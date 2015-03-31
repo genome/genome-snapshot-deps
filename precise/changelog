@@ -1,3 +1,15 @@
+genome-snapshot-deps (2015.03.30-1~Ubuntu~precise) precise; urgency=low
+
+  * [10d5110] add new cufflinks version
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Mon, 30 Mar 2015 10:28:09 -0500
+
+genome-snapshot-deps (2015.03.23-1~Ubuntu~precise) precise; urgency=low
+
+  * [10d5110] add file-touch to precise.
+
+ -- Avinash Ramu <aramu@genome.wustl.edu>  Mon, 23 Mar 2015 13:41:04 -0500
+
 genome-snapshot-deps (2015.03.02-1~Ubuntu~precise) precise; urgency=low
 
   * [65ceff2] updated versions of multiple tools including joinx, bwa,

@@ -1,3 +1,13 @@
+genome-snapshot-deps (2015.04.01-1) lucid; urgency=low
+
+  * [f0d7972] Merge pull request #25 from mkiwala/libptero-perl_0.0.3-1
+  * [86266ab] updated libptero-perl (Ptero) of genome-snapshot-deps perl
+    (depends)
+  * [4513f96] updated libptero-perl (Ptero) of genome-snapshot-deps perl
+    (depends)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 01 Apr 2015 13:19:23 -0500
+
 genome-snapshot-deps (2015.03.31-1) lucid; urgency=low
 
   * [2063f56] Merge branch 'master' of github.com:genome/genome-

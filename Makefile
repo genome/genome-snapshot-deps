@@ -1,4 +1,7 @@
-.PHONY: validate lucid nothing
+.PHONY: clean validate lucid nothing
+
+BUILD_DIR:=build
+DEB_DIR:=$(BUILD_DIR)/genome-snapshot-deps/debian
 
 nothing:
 	@echo "'make all' to build all binaries."
@@ -13,19 +16,19 @@ pkgs-for-building-pkgs:
 source: pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -us -S'
 
-all: pkgs-for-building-pkgs
+all: clean pkgs-for-building-pkgs
 	$(MAKE) debian BUILD_FLAGS='-uc -A'
 
-purge:
-	rm -f ../genome-snapshot-deps*.changes ../genome-snapshot-deps*.deb
-	rm -rf debian
+clean:
+	find $(BUILD_DIR) -mindepth 1 ! -name .PLACEHOLDER -delete
 
 debian: validate
-	rsync -av --delete common/ debian/
-	cp -a $(DISTRO)/compat debian/
-	cp -a $(DISTRO)/changelog debian/
-	bin/build-control $(DISTRO) > debian/control
-	dpkg-buildpackage $(BUILD_FLAGS) --changes-option='-DDistribution=$(REPO)'
+	mkdir -p $(DEB_DIR)
+	rsync -av --delete common/ $(DEB_DIR)/
+	cp -a $(DISTRO)/compat $(DEB_DIR)/
+	cp -a $(DISTRO)/changelog $(DEB_DIR)/
+	bin/build-control $(DISTRO) > $(DEB_DIR)/control
+	( cd $(DEB_DIR)/.. && dpkg-buildpackage $(BUILD_FLAGS) --changes-option='-DDistribution=$(REPO)' )
 
 validate:
 ifndef DISTRO

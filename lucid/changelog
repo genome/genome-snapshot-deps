@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.04.01-2) lucid; urgency=low
+
+  * [2aff441] Merge pull request #27 from indraniel/vcflib1.0
+  * [98b93f3] + introduce vcflib-tgi1.0
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 01 Apr 2015 13:22:20 -0500
+
 genome-snapshot-deps (2015.04.01-1) lucid; urgency=low
 
   * [f0d7972] Merge pull request #25 from mkiwala/libptero-perl_0.0.3-1

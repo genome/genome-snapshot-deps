@@ -15,7 +15,6 @@ How to Add New Dependencies
 
 - Test the meta-package before committing and pushing (mostly in case of typos):
     make all
-    cd ..
     sudo dpkg -i build/*.deb
 
 - Commit your changes.

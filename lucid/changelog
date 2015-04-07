@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.04.07-1) lucid; urgency=low
+
+  * [2d6eb45] updated libptero-perl (Ptero) of genome-snapshot-deps perl
+    (depends)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 07 Apr 2015 14:46:17 -0500
+
 genome-snapshot-deps (2015.04.03-2) lucid; urgency=low
 
   * Forced rebuild with no changes to lucid.

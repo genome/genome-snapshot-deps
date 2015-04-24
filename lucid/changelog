@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.04.24-2) lucid; urgency=low
+
+  * [462e3cb] Merge pull request #33 from ernfrid/sniper-patch
+  * [8fb10c4] update sniper to patch release
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 24 Apr 2015 15:25:16 -0500
+
 genome-snapshot-deps (2015.04.24-1) lucid; urgency=low
 
   * [6c72be5] Add libpicard-tools1.130-java (>= 1.130-1)

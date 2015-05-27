@@ -1,3 +1,11 @@
+genome-snapshot-deps (2015.05.27-2) lucid; urgency=low
+
+  * [557dae1] Merge pull request #38 from ebelter/master
+  * [69a05b0] Add Data::Transform::ExplicitMetadata to lucid perl
+    depends
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 27 May 2015 15:28:18 -0500
+
 genome-snapshot-deps (2015.05.27-1) lucid; urgency=low
 
   * [ba8b40e] Merge pull request #35 from iferguson90/libptero-perl-

@@ -1,3 +1,13 @@
+genome-snapshot-deps (2015.05.26-1) lucid; urgency=low
+
+  * [85fe1f5] Revert "Add Data::Transform::ExplicitMetadata to lucid
+    perl depends"
+  * [adce563] Add Data::Transform::ExplicitMetadata to lucid perl
+    depends
+  * [355b24c] update to joinx1.12
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 26 May 2015 19:58:18 -0500
+
 genome-snapshot-deps (2015.05.13-1) lucid; urgency=low
 
   * [d9bee40] Update Flow version

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.06.02-2) lucid; urgency=low
+
+  * [ea4c72d] Bump version of libptero-perl to 0.1.4
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 02 Jun 2015 16:22:17 -0500
+
 genome-snapshot-deps (2015.06.02-1) lucid; urgency=low
 
   * [a31407f] Bump libptero-perl version to 0.1.3

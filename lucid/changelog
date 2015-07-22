@@ -1,3 +1,11 @@
+genome-snapshot-deps (2015.07.22-1) lucid; urgency=low
+
+  * [e6864c1] Merge pull request #42 from
+    davidlmorton/libptero_perl0_1_6
+  * [f469bc0] Bump version of libptero-perl to 0.1.6
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 22 Jul 2015 17:44:45 -0500
+
 genome-snapshot-deps (2015.06.16-1) lucid; urgency=low
 
   * [ce8bb59] Bump libptero-perl version to 0.1.5

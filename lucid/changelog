@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.07.28-1) lucid; urgency=low
+
+  * [c6a36b4] Merge pull request #43 from iferguson90/master
+  * [b2dbe99] Add bam-errorrate1.0a3 (>= 1.0a3)
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 28 Jul 2015 16:13:16 -0500
+
 genome-snapshot-deps (2015.07.24-1) lucid; urgency=low
 
   * [f097640] Bump version of libptero-perl to 0.1.7

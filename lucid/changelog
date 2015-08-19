@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.08.19-1) lucid; urgency=low
+
+  * [909cc56] Merge pull request #48 from tmooney/gatk_3.4-2
+  * [54ca903] Add new 3.4 version of GATK.
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 19 Aug 2015 08:52:20 -0500
+
 genome-snapshot-deps (2015.08.18-1) lucid; urgency=low
 
   * [f5f479f] Merge pull request #47 from genome/flow0-0-5-19

@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.09.01-1) lucid; urgency=low
+
+  * [3da0420] Version 0.1.10-1 of libptero-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 01 Sep 2015 13:19:15 -0500
+
 genome-snapshot-deps (2015.08.19-1) lucid; urgency=low
 
   * [909cc56] Merge pull request #48 from tmooney/gatk_3.4-2

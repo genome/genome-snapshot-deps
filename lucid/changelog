@@ -1,3 +1,11 @@
+genome-snapshot-deps (2015.09.16-1) lucid; urgency=low
+
+  * [76db1d0] Remove dep for libconvert-asn1-perl
+  * [3b0ca5a] Lucid perl deps: add libnet-ldap-perl and dep libconvert-
+    asn1-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 16 Sep 2015 12:55:18 -0500
+
 genome-snapshot-deps (2015.09.01-1) lucid; urgency=low
 
   * [3da0420] Version 0.1.10-1 of libptero-perl

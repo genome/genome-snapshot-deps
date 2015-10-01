@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.10.01-1) lucid; urgency=low
+
+  * [106cbad] Update vepplugins-1 to newest version
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 Oct 2015 10:10:21 -0500
+
 genome-snapshot-deps (2015.09.23-1) lucid; urgency=low
 
   * [2c2cbcc] Add libhash-flatten-perl.

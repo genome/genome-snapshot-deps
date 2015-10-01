@@ -1,3 +1,10 @@
+genome-snapshot-deps (2015.10.01-2) lucid; urgency=low
+
+  * [b865d2d] Merge pull request #53 from davidlmorton/perl-sdk-0-1-11
+  * [f5adf85] Bump version of ptero-perl-sdk to 0.1.11
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 Oct 2015 14:43:17 -0500
+
 genome-snapshot-deps (2015.10.01-1) lucid; urgency=low
 
   * [106cbad] Update vepplugins-1 to newest version

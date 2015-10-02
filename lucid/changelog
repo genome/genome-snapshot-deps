@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.10.02-1) lucid; urgency=low
+
+  * [a67252f] Bump version of ptero-perl-sdk to 0.1.12
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 02 Oct 2015 15:22:20 -0500
+
 genome-snapshot-deps (2015.10.01-2) lucid; urgency=low
 
   * [b865d2d] Merge pull request #53 from davidlmorton/perl-sdk-0-1-11

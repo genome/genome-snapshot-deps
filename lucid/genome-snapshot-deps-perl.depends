@@ -1,6 +1,7 @@
 bioperl (>= 1.6.1-1ubuntu1)
 bioperl-run (>= 1.6.1-1)
 libace-perl (>= 1.92-2)
+libalgorithm-bucketizer-perl (>= 0.13-1)
 libalgorithm-c3-perl (>= 0.08-1)
 libalgorithm-munkres-perl (>= 0.08-2)
 libanydata-perl (>= 0.10-9)

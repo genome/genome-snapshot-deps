@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.10.07-1) lucid; urgency=low
+
+  * [c872abe] Add libalgorithm-bucketizer-perl
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Wed, 07 Oct 2015 12:31:47 -0500
+
 genome-snapshot-deps (2015.10.02-1) lucid; urgency=low
 
   * [a67252f] Bump version of ptero-perl-sdk to 0.1.12

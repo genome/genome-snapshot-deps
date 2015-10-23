@@ -1,3 +1,9 @@
+genome-snapshot-deps (2015.10.23-1) lucid; urgency=low
+
+  * [7270f83] PTero Perl SDK 0.1.13-1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Fri, 23 Oct 2015 13:13:19 -0500
+
 genome-snapshot-deps (2015.10.07-1) lucid; urgency=low
 
   * [c872abe] Add libalgorithm-bucketizer-perl

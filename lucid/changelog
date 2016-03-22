@@ -1,3 +1,9 @@
+genome-snapshot-deps (2016.03.22-1) lucid; urgency=low
+
+  * [4ae1a63] PTero Perl SDK 0.4.2-1
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Tue, 22 Mar 2016 11:46:17 -0500
+
 genome-snapshot-deps (2016.02.24-1) lucid; urgency=low
 
   * [321e13e] PTero Perl SDK 0.4.2-1

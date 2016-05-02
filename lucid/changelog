@@ -1,3 +1,9 @@
+genome-snapshot-deps (2016.05.02-1) lucid; urgency=low
+
+  * [b156efc] update libtesttracker-perl (>= 0.038-1).
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Mon, 02 May 2016 14:13:40 -0500
+
 genome-snapshot-deps (2016.04.12-1) lucid; urgency=low
 
   * [4efaca1] Bump ptero-perl to v0.4.6

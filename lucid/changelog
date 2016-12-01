@@ -1,3 +1,9 @@
+genome-snapshot-deps (2016.12.01-1) lucid; urgency=low
+
+  * [c4a2cd0] bumping copycat to v1.6-11
+
+ -- Apipe Tester <apipe-tester@vm86.gsc.wustl.edu>  Thu, 01 Dec 2016 11:34:16 -0600
+
 genome-snapshot-deps (2016.06.01-1) lucid; urgency=low
 
   * [2c2a502] Add dependency on pdftk since ClinSeq seems to be using
